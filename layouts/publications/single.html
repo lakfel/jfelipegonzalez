@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article class="publication">
+    <header>
+        <h1>{{ .Title }}</h1>
+        <p><strong>Authors:</strong> {{ .Params.authors }}</p>
+        {{ with .Params.publication}}
+        <p><strong>Publication:</strong> {{ .Params.publication }}</p>
+        {{ end }}
+        {{ with .Params.note }}
+            <p><strong>Awards:</strong> {{ . }}</p>
+        {{ end }}
+        <p><a href="{{ .Params.url }}" target="_blank">Read the full publication</a></p>
+    </header>
+    <section>
+        {{ .Content }}
+    </section>
+</article>
+{{ end }}
