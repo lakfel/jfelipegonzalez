@@ -1,4 +1,5 @@
-baseURL = 'https://github.com/lakfel/jfelipegonzalez.git'
+baseURL = 'https://lakfel.github.io/jfelipegonzalez/'
+relativeURLs = true
 languageCode = 'en-us'
 title = 'J. Felipe Gonzalez, Ph.D.'
 paginate = 3
@@ -9,8 +10,8 @@ theme = 'maverick'
 
 [params]
   logo = '/assets/imgJFGA.jpg'
-  description = "A minimal hugo theme focus on content"
-  author = 'Calvin Tran'
+  description = "Hola! This is me, Felipe Gonzalez..."
+  author = 'J. Felipe Gonzalez'
 
   [params.comments]
     enabled = true
