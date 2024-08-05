@@ -1,7 +1,7 @@
 ## Hola! 👋
 
 
-<img class="avatar" src="/imgs/imgJFGA.jpg" alt="avatar">
+<img class="avatar" src="{{< baseurl >}}/imgs/imgJFGA.jpg" alt="avatar">
 
 
 I'm J. Felipe Gonzalez, a tech enthusiast driven by a deep passion for hardware and software innovations.
