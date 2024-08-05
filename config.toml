@@ -13,10 +13,10 @@ theme = 'maverick'
   description = "Hola! This is me, Felipe Gonzalez..."
   author = 'J. Felipe Gonzalez'
 
-  [params.comments]
-    enabled = true
-    githubRepo = 'canhtran/maverick'
-    theme = 'github-light'
+  #[params.comments]
+  #  enabled = true
+  #  githubRepo = 'canhtran/maverick'
+  #  theme = 'github-light'
 
 
 [menu]
