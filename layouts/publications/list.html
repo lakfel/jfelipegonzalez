@@ -67,9 +67,9 @@
                     {{ if .Params.links }}
                       {{ range .Params.links }}
                         {{ if .local }}
-                          <a class="pub-button" href="{{ .url }}" target="_blank"><i class="fa {{ .icon }}" aria-hidden="true"></i> {{ .text }}</a>
-                        {{ else }}
                           <a class="pub-button" href="{{ .Site.BaseURL }}{{ .url }}" target="_blank"><i class="fa {{ .icon }}" aria-hidden="true"></i> {{ .text }}</a>
+                        {{ else }}
+                          <a class="pub-button" href="{{ .url }}" target="_blank"><i class="fa {{ .icon }}" aria-hidden="true"></i> {{ .text }}</a>
                         {{ end }}
                       {{ end }}
                     {{ end }}
