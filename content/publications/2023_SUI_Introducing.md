@@ -26,10 +26,10 @@ tags:
   - "Programming-based CAD"
   - "Bidirectionnal programming"
 note: ""
-video: "/videos/2023_SUI_Introducing.mp4"
+video: "{{< baseurl >}}/videos/2023_SUI_Introducing.mp4"
 bibfile: "/bibtex/2023_SUI_Introducing.bib"
 links:
-  - url: "/pdfs/2023_SUI_Introducing.pdf"
+  - url: "{{< baseurl >}}/pdfs/2023_SUI_Introducing.pdf"
     icon: "fa-file-pdf"
     text: "PDF"
   - url: "https://dl.acm.org/doi/10.1145/3607822.3614521?cid=81316490016"

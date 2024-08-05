@@ -25,8 +25,8 @@ tags:
   - "Programming-based CAD"
   - "Bidirectionnal programming"
 note: ""
-video: "/videos/2024_UIST_Facilitating.mp4"
-bibfile: "/bibtex/2024_UIST_Factilitating.bib"
+video: "{{< baseurl >}}/videos/2024_UIST_Facilitating.mp4"
+bibfile: "{{< baseurl >}}/bibtex/2024_UIST_Factilitating.bib"
 links:
   - url: "/pdfs/2024_UIST_Factilitating.pdf"
     icon: "fa-file-pdf"
