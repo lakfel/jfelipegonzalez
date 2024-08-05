@@ -24,12 +24,13 @@ tags:
   - "Programming-based CAD"
   - "Bidirectionnal programming"
 note: ""
-video: "{{< baseurl >}}/videos/2024_CHI_Uniderstanding.mp4"
+video: "/videos/2024_CHI_Uniderstanding.mp4"
 bibfile: "/bibtex/2024_CHI_Understanding.bib"
 links:
-  - url: "{{< baseurl >}}/pdfs/2024_CHI_Understanding.pdf"
+  - url: "/pdfs/2024_CHI_Understanding.pdf"
     icon: "fa-file-pdf"
     text: "PDF"
+    local: true
   - url: "https://dl.acm.org/doi/10.1145/3613904.3642566"
     icon: "fa-link"
     text: "DOI"

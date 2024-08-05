@@ -1,5 +1,5 @@
 baseURL = 'https://lakfel.github.io/jfelipegonzalez/'
-relativeURLs = false
+relativeURLs = true
 languageCode = 'en-us'
 title = 'J. Felipe Gonzalez, Ph.D.'
 paginate = 3

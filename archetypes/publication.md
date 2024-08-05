@@ -27,6 +27,7 @@ links:
   - url: "pdfs/<>.pdf"
     icon: "fa-file-pdf"
     text: "PDF"
+    local: true
   - url: "https://dl.acm.org/doi/<>"
     icon: "fa-link"
     text: "DOI"

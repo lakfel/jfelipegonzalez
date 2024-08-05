@@ -27,12 +27,13 @@ tags:
   - "VR"
   - "Haptics"
 note: ""
-video: "{{< baseurl >}}/videos/2021_SUI_Adaptic2.mp4"
+video: "/videos/2021_SUI_Adaptic2.mp4"
 bibfile: "/bibtex/2021_SUI_Adaptic.bib"
 links:
-  - url: "{{< baseurl >}}/pdfs/2021_SUI_Adaptic.pdf"
+  - url: "/pdfs/2021_SUI_Adaptic.pdf"
     icon: "fa-file-pdf"
     text: "PDF"
+    local: true
   - url: "https://dl.acm.org/doi/10.1145/3485279.3485293"
     icon: "fa-link"
     text: "DOI"

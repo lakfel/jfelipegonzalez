@@ -25,12 +25,13 @@ tags:
   - "Programming-based CAD"
   - "Bidirectionnal programming"
 note: ""
-video: "{{< baseurl >}}/videos/2024_UIST_Facilitating.mp4"
-bibfile: "{{< baseurl >}}/bibtex/2024_UIST_Factilitating.bib"
+video: "/videos/2024_UIST_Facilitating.mp4"
+bibfile: "/bibtex/2024_UIST_Factilitating.bib"
 links:
   - url: "/pdfs/2024_UIST_Factilitating.pdf"
     icon: "fa-file-pdf"
     text: "PDF"
+    local: true
   - url: "https://dl.acm.org/doi/10.1145/3654777.3676417"
     icon: "fa-link"
     text: "DOI"
