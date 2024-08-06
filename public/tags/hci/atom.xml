@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HCI on J. Felipe Gonzalez, Ph.D.</title>
-    <link>http://localhost:1313/jfelipegonzalez/tags/hci/</link>
+    <link>http://localhost:1313/tags/hci/</link>
     <description>Recent content in HCI on J. Felipe Gonzalez, Ph.D.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/jfelipegonzalez/tags/hci/atom.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hci/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Facilitating the Parametric Definition of Geometric Properties in Programming-Based CAD</title>
-      <link>http://localhost:1313/jfelipegonzalez/publications/2024_uist_factilitating/</link>
+      <link>http://localhost:1313/publications/2024_uist_factilitating/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/jfelipegonzalez/publications/2024_uist_factilitating/</guid>
+      <guid>http://localhost:1313/publications/2024_uist_factilitating/</guid>
       <description>Abstract </description>
     </item>
     <item>
       <title>Understanding the Challenges of OpenSCAD Users for 3D Printing</title>
-      <link>http://localhost:1313/jfelipegonzalez/publications/2024_chi_understanding/</link>
+      <link>http://localhost:1313/publications/2024_chi_understanding/</link>
       <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/jfelipegonzalez/publications/2024_chi_understanding/</guid>
+      <guid>http://localhost:1313/publications/2024_chi_understanding/</guid>
       <description>Abstract </description>
     </item>
     <item>
       <title>Introducing Bidirectional Programming in Constructive Solid Geometry-Based CAD</title>
-      <link>http://localhost:1313/jfelipegonzalez/publications/2023_sui_introducing/</link>
+      <link>http://localhost:1313/publications/2023_sui_introducing/</link>
       <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/jfelipegonzalez/publications/2023_sui_introducing/</guid>
+      <guid>http://localhost:1313/publications/2023_sui_introducing/</guid>
       <description>Abstract </description>
     </item>
     <item>
       <title>Adaptic: A Shape Changing Prop with Haptic Retargeting</title>
-      <link>http://localhost:1313/jfelipegonzalez/publications/2021_sui_adaptic/</link>
+      <link>http://localhost:1313/publications/2021_sui_adaptic/</link>
       <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/jfelipegonzalez/publications/2021_sui_adaptic/</guid>
+      <guid>http://localhost:1313/publications/2021_sui_adaptic/</guid>
       <description>Abstract </description>
     </item>
     <item>
       <title>Facilitating Programming-based 3D Computer-Aided Design using Bidirectional Programming</title>
-      <link>http://localhost:1313/jfelipegonzalez/projects/pr_facilitating_prograaming-based_cad/</link>
-      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/jfelipegonzalez/projects/pr_facilitating_prograaming-based_cad/</guid>
+      <link>http://localhost:1313/projects/pr_facilitating_prograaming-based_cad/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/pr_facilitating_prograaming-based_cad/</guid>
       <description>Abstract 3D Computer-Aided Design (CAD) applications allow users to create visual representations of models, helping create, edit, test, and analyze designs. Most offer a Graphical User Interface (GUI) with direct manipulation providing easy-to-use interactions, while a less popular category adopts a programming-based approach requiring users to describe models using specific programming languages. Programming-based CAD applications provide multiple benefits to 3D design, but their use remains limited, potentially due to higher entry barriers and extensive programming requirements.</description>
     </item>
   </channel>
