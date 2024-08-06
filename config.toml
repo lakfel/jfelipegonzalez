@@ -30,11 +30,11 @@ theme = 'maverick'
     name = "Publications"
     url = "/publications/"
     weight = "-170"
-  #[[menu.main]]
-  #  identifier = "posts"
-  #  name = "Post"
-  #  url = "/posts/"
-  #  weight = -100
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = -100
 
 [markup]
   [markup.goldmark.renderer]

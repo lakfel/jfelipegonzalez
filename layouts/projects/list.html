@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-...your-integrity-hash..." crossorigin="anonymous">
+  {{ $css := resources.Get "publications/css/custom.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $css.Permalink }}">
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    {{ partial "header.html" . }}
+    <section>
+      {{ .Content }}
+      <ul reversed class="list">
+        {{ range .Pages }}
+          <li>
+            <a href="{{ .Params.redirect_link }}" target="_blank" title="{{ .Title }}">{{ .Title }}</a>
+            <!--a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}
+            </a-->
+            <hr class="hr-list">
+            <time class="g time" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "02/01/06" .Date }}</time>
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+  </div>
+</main>
+</body>
+</html>

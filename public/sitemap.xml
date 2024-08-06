@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/jfelipegonzalez/projects/</loc>
+    <lastmod>2024-06-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/jfelipegonzalez/publications/</loc>
     <lastmod>2024-05-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -30,6 +33,9 @@
     <lastmod>2023-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/jfelipegonzalez/publications/2021_sui_adaptic/</loc>
+    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jfelipegonzalez/projects/pr_facilitating_prograaming-based_cad/</loc>
     <lastmod>2021-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/jfelipegonzalez/tags/haptics/</loc>
