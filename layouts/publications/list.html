@@ -75,7 +75,7 @@
                       {{ end }}
                     {{ end }}
                     {{ if .Params.bibfile }}
-                    <a class="pub-button" href="javascript:void(0);" onclick="toggleBibtex('{{ .Params.bibfile }}')"><i class="fa fa-caret-down" aria-hidden="true"></i> Bibtex</a>
+                    <a class="pub-button" id="buttonbib-{{ .Params.bibfile }}" href="javascript:void(0);" onclick="toggleBibtex('{{ .Params.bibfile }}')"><i class="fa fa-caret-down" aria-hidden="true"></i> Bibtex</a>
                     {{ end }}
                   </small>
                 </div>
@@ -97,9 +97,15 @@
   <script>
     function toggleBibtex(id) {
       var element = document.getElementById('bibtex-' + id);
+      var elementBut = document.getElementById('buttonbib-' + id);
       if (element.style.display === 'none') {
         element.style.display = 'block';
+        elementBut.classList.remove('pub-button');
+        elementBut.classList.add('pub-button-pressed');
+
       } else {
+        elementBut.classList.add('pub-button');
+        elementBut.classList.remove('pub-button-pressed');
         element.style.display = 'none';
       }
     }

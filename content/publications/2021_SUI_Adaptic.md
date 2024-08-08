@@ -43,6 +43,12 @@ links:
   - url: "https://github.com/lakfel/RetargPlusAdaptic"
     icon: "fa-code"
     text: "Code"
+  - url: "https://hal.science/hal-04669495"
+    icon: "fa-external-link"
+    text: "HAL"
+  - url: "https://arxiv.org/abs/2408.01789"
+    icon: "fa-external-link"
+    text: "arXiv"
 draft: false
 ---
 

@@ -24,6 +24,16 @@
     transition: background-color 0.3s, color 0.3s;
 }
 
+.pub-button-pressed {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #646464; /* Ajusta el color de fondo si es necesario */
+    border-radius: 3px;
+    text-decoration: none;
+    color: #007bff; /* Ajusta el color del texto si es necesario */
+    transition: background-color 0.3s, color 0.3s;
+}
+
 .pub-button:hover {
     background-color: #007bff; /* Color de fondo en hover */
     color: white; /* Color del texto en hover */
