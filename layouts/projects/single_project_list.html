@@ -1,0 +1,44 @@
+<!doctype html>
+<!-- list.html -->
+<!-- Rendering with list.html -->
+<html lang="en">
+  {{ partial "head.html" . }}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-...your-integrity-hash..." crossorigin="anonymous">
+  {{ $css := resources.Get "projects/css/custom.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $css.Permalink }}">
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    {{ partial "header.html" . }}
+    <section>
+      {{ .Content }}
+
+        {{ range sort .Pages  "Params.order" "asc"}}
+          {{ if .Params.title_list}}
+            <h3><a class="link" href="{{ .Permalink }}" title="{{ .Title }}"><i class="fa fa-link" aria-hidden="true"></i> {{ .Params.title_list }}</a></h3>
+          {{ end }}
+          {{ if .Params.video }}
+          <div style="position: relative; overflow: hidden; float: left; margin-right: 10px; max-height: 144px; max-width: 256px; width: 25%;">
+            <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">
+              <video width="100%" height="auto" autoplay muted loop style="margin-right: 15px">
+                <source src="{{ .Site.BaseURL }}{{ .Params.video  }}" type="video/mp4">
+              </video>
+            </a>
+          </div>
+          {{ end }}
+          {{ if .Params.description_list}}
+            In my project <strong>{{ .Title }}</strong>, {{ .Params.description_list}}
+          {{ else }}
+            Project: {{ .Title }}
+          {{ end }}
+          <span style="background-color: rgba(0, 0, 0, 0.5); color: white; padding-right: 5px; padding-left: 5px; border-radius: 0px; white-space: nowrap;">
+             <a class="link" href="{{ .Permalink }}" title="{{ .Title }}"><i class="fa fa-link fa-lg" style="font-size:12px" aria-hidden="true"></i> Check it out!</a>
+        </span>
+        {{ end }} 
+   
+    </section>
+  </div>
+</main>
+</body>
+</html>

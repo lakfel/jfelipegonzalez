@@ -1,5 +1,6 @@
 ---
 title: "Understanding the Challenges of OpenSCAD Users for 3D Printing"
+slug: "2024_CHI_Understanding"
 description: ""
 date: 2024-05-11
 authors: 

@@ -1,6 +1,7 @@
 ---
 title: "Facilitating Programming-based 3D Computer-Aided Design using Bidirectional Programming"
 description: ""
+type: "projects"
 date: 2020-11-01
 authors:
   - name: "Gonzalez, J. Felipe" 
@@ -14,6 +15,9 @@ categories:
 tags:
   - "HCI"
   - "CAD"
+proj: "pr_facilitating_programming-based_cad"
+subproj: ""
+layout: "single_project_list"
 
 draft: false
 ---
@@ -43,9 +47,13 @@ You know how most 3D CAD tools are pretty intuitive, with those drag-and-drop in
 
 The problem is that not many people use it. Why? Mainly because it’s not the easiest thing to get into, and honestly, we don’t fully understand all the challenges that come with it.
 
-
 That’s why I dove into this research. I wanted to explore the world of programming-based CAD and figure out how to make it more user-friendly, especially for those of you who are into 3D printing and digital fabrication.
 
+Check out the projects I have worked on!
+
+
+
+<!--
 ### Getting to Know the Users: Challenges Faced by 3D Code Designers
 
 In the first part of my research, I talked to 20 OpenSCAD users—a major tool in the programming-based CAD world. I wanted to get a real sense of what makes this approach challenging. From these conversations, I identified three main areas where users struggle: who the users are, the hurdles they face in 3D design, and the headaches that come up during 3D printing. For example, some users found it tough to visualize how changes in the code would affect the 3D model, while others struggled with the steep learning curve required to master the syntax.
@@ -59,5 +67,5 @@ Next, I tackled a big issue: the tricky relationship between the code and the 3D
 Finally, I focused on the challenge of defining geometric properties in parametric designs—a real pain point for many users. For instance, defining the exact dimensions or relationships between different parts of a model can get pretty complex. I analyzed a bunch of OpenSCAD models and developed new features to make it easier to define and manipulate these properties right from the 3D view. When I tested these new features with users, the results were promising. Not only did it make the design process faster and less error-prone, but it also made it much easier for beginners to jump in and start creating.
 
 So, if you’re excited about pushing the limits of 3D design with code, my research is here to make that journey a lot smoother, more intuitive, and definitely more fun!
-
+-->
 

@@ -1,0 +1,8 @@
+<ul>
+    {{ range .Pages }}
+      {{ if .IsPage }}
+        <h3>{{ .Params.title_list }} </h3>
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    {{ end }}
+</ul>
