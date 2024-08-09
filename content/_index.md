@@ -21,6 +21,9 @@ This website is a gateway to my work and interests... :D
 - <a href="https://scholar.google.com/citations?user=bIaH5aQAAAAJ&hl" target="_blank">
       <i class="fab fa-google"></i> Google Scholar
     </a> 
+- <a href="https://arxiv.org/a/0000-0002-0716-1689.html" target="_blank">
+      <i class="fa-solid fa-memo"></i> ArXiv
+    </a> 
 - <a href="https://github.com/lakfel" target="_blank">
       <i class="fab fa-github"></i> Github
     </a>

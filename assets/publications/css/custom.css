@@ -63,6 +63,11 @@ textarea.form-control {
     height: auto;
 }
 
+.text-muted {
+    color: #6c757d; /* Color gris similar al de Bootstrap's text-muted */
+    /* También puedes ajustar el color según tus necesidades */
+  }
+
 .form-control[readonly] {
     background-color: #e9ecef;
     opacity: 1;
@@ -89,3 +94,19 @@ a:hover {
     text-decoration-style: dotted !important;
     color: #0a55a5;
 }
+
+/* Inicialmente oculta los elementos con la clase info-detail */
+.info-detail {
+    opacity: 0;
+    position: absolute; /* O cualquier valor que no afecte el flujo del documento */
+    pointer-events: none; /* Evita que el elemento sea interactivo */
+    transition: opacity 0.5s ease; /* Transición suave para opacidad */
+  }
+  
+  /* Muestra los elementos con la clase info-detail cuando se hace hover en el contenedor padre */
+  .paper-box:hover .info-detail {
+    opacity: 1;
+    position: static; /* Vuelve al flujo del documento */
+    pointer-events: auto; /* Hace que el elemento sea interactivo */
+  }
+  
