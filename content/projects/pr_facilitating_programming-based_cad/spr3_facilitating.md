@@ -20,6 +20,8 @@ tags:
 project: "pr_facilitating_programming-based_cad"
 subproject: "spr3_facilitating"
 layout : "single"
+publications: 
+  - "2024_uist_factilitating"
 draft: false
 ---
 

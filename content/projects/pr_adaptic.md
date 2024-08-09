@@ -19,7 +19,8 @@ tags:
 proj: "pr_adaptic"
 subproj: ""
 layout: "single"
-
+publications:
+  - "2021_sui_adaptic"
 draft: false
 ---
 

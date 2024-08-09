@@ -36,7 +36,15 @@
              <a class="link" href="{{ .Permalink }}" title="{{ .Title }}"><i class="fa fa-link fa-lg" style="font-size:12px" aria-hidden="true"></i> Check it out!</a>
         </span>
         {{ end }} 
-   
+        {{ if .Params.publications }}
+        <h2>Publications</h2>
+        <ul>
+          {{ range .Params.publications }}
+          <li><a href="/publications/{{ .link }}">{{ .name  }}</a></li>
+          {{ end }} 
+        </ul>
+        {{ end }}
+
     </section>
   </div>
 </main>

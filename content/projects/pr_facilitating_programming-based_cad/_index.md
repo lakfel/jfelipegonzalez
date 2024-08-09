@@ -18,7 +18,13 @@ tags:
 proj: "pr_facilitating_programming-based_cad"
 subproj: ""
 layout: "single_project_list"
-
+publications: 
+  - link: "2024_chi_understanding"
+    name: "Understanding the Challenges of OpenSCAD Users for 3D Printing"
+  - link: "2023_sui_introducing"
+    name: "Introducing Bidirectional Programming in Constructive Solid Geometry-Based CAD"
+  - link: "2024_uist_factilitating"
+    name: "Facilitating the Parametric Definition of Geometric Properties in Programming-Based CAD"
 draft: false
 ---
 

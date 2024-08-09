@@ -1,5 +1,6 @@
 ---
-title: "Introducing Bidirectional Programming in Constructive Solid Geometry-Based CAD"
+title: "2023_SUI_Introducing"
+title_paper : "Introducing Bidirectional Programming in Constructive Solid Geometry-Based CAD"
 description: ""
 date: 2023-10-13
 authors:
@@ -48,11 +49,11 @@ links:
   - url: "https://cil.csit.carleton.ca/bidirectional-programming-csg-cad/"
     icon: "fa-link"
     text: "Website"
+type: "publications"
+layout : "single"
 draft: false
 ---
 
-
-
-
 ## Abstract
 
+3D Computer-Aided Design (CAD) users need to overcome several obstacles to benefit from the flexibility of programmatic interface tools. Besides the barriers of any programming language, users face challenges inherent to 3D spatial interaction. Scripting simple operations, such as moving an element in 3D space, can be significantly more challenging than performing the same task using direct manipulation. We introduce the concept of bidirectional programming for Constructive Solid Geometry (CSG) CAD tools, informed by interviews we performed with programmatic interface users. We describe how users can navigate and edit the 3D model using direct manipulation in the view or code editing while the system ensures consistency between both spaces. We also detail a proof-of-concept implementation using a modified version of OpenSCAD

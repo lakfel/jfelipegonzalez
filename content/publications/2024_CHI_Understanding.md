@@ -1,5 +1,6 @@
 ---
-title: "Understanding the Challenges of OpenSCAD Users for 3D Printing"
+title: "2024_CHI_Understanding"
+title_paper: "Understanding the Challenges of OpenSCAD Users for 3D Printing"
 slug: "2024_CHI_Understanding"
 description: ""
 date: 2024-05-11
@@ -44,8 +45,12 @@ links:
   - url: "https://youtu.be/FHLzet8mrZQ?si=RjBxLSvTMTQvCpSz"
     icon: "fa-film"
     text: "Video"
+type: "publications"
+layout : "single"
 draft: false
 ---
 
 
 ## Abstract
+
+Direct manipulation has been established as the main interaction paradigm for Computer-Aided Design (CAD) for decades. It provides fast, incremental, and reversible actions that allow for an iterative process on a visual representation of the result. Despite its numerous advantages, some users prefer a programming-based approach where they describe the 3D model they design with a specific programming language, such as OpenSCAD. It allows users to create complex structured geometries and facilitates abstraction. Unfortunately, most current knowledge about CAD practices only focuses on direct manipulation programs. In this study, we interviewed 20 programming-based CAD users to understand their motivations and challenges. Our findings reveal that this programmingoriented population presents difficulties in the design process in tasks such as 3D spatial understanding, validation and code debugging, creation of organic shapes, and code-view navigation

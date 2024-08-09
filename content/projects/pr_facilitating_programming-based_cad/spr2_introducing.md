@@ -19,6 +19,8 @@ tags:
 project: "pr_facilitating_programming-based_cad"
 subproject: "spr1_understanding"
 layout : "single"
+publications:
+  - "2023_sui_introducing"
 draft: false
 ---
 

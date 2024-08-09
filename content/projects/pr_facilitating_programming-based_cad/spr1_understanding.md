@@ -18,7 +18,7 @@ tags:
   - "HCI"
   - "CAD"
 publications: 
-  - 2024_CHI_Understanding
+  - "2024_chi_understanding"
 project: "pr_facilitating_programming-based_cad"
 subproject: "spr2_understanding"
 layout : "single"
