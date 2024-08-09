@@ -20,14 +20,14 @@
       <link>http://localhost:1313/projects/pr_facilitating_programming-based_cad/spr3_facilitating/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/pr_facilitating_programming-based_cad/spr3_facilitating/</guid>
-      <description></description>
+      <description>Parametric Computer-Aided Design (CAD) is a game-changer when it comes to creating customizable and reusable 3D models. By using variables in your designs, you can tweak and adjust models without starting from scratch. However, when it comes to programming-based CAD tools, things can get pretty complicated. These tools require users to code every aspect of their designs, linking various properties with complex mathematical expressions. This process can be daunting and error-prone, especially without much in the way of helpful assistance.</description>
     </item>
     <item>
-      <title>introducing Bidirectional Programming in Constructive Solid Geometry-Based CAD</title>
+      <title>Introducing Bidirectional Programming in Constructive Solid Geometry-Based CAD</title>
       <link>http://localhost:1313/projects/pr_facilitating_programming-based_cad/spr2_introducing/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/pr_facilitating_programming-based_cad/spr2_introducing/</guid>
-      <description></description>
+      <description>Working with 3D Computer-Aided Design (CAD) can be incredibly powerful, especially when you dive into the world of programming-based tools. But let’s face it—while these tools offer flexibility, they also come with their own set of challenges. Unlike traditional drag-and-drop CAD interfaces, scripting in a tool like OpenSCAD can be tricky. Simple tasks, like moving an element in 3D space, can become complex and frustrating when you’re just dealing with code.</description>
     </item>
     <item>
       <title>Understanding the Challenges of OpenSCAD Users for 3D Printing</title>

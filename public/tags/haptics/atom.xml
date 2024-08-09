@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/publications/adaptic-a-shape-changing-prop-with-haptic-retargeting/</guid>
       <description>Abstract </description>
     </item>
+    <item>
+      <title>Adaptic: A Shape Changing Prop with Haptic Retargeting</title>
+      <link>http://localhost:1313/projects/pr_adaptic/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/pr_adaptic/</guid>
+      <description>Imagine interacting with virtual objects in VR and feeling as if you&amp;rsquo;re actually handling them, all while using just a single device. That’s exactly what we aimed to achieve with Adaptic, our innovative haptic device. Unlike traditional props, Adaptic is a shape-changing device that can transform its form to match various virtual objects you’re manipulating in VR.&#xA;Here’s how it works: Adaptic uses a clever technique called haptic retargeting to adjust its shape and provide realistic feedback for different virtual items.</description>
+    </item>
   </channel>
 </rss>
