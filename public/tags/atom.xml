@@ -43,5 +43,12 @@
       <guid>http://localhost:1313/tags/vr/</guid>
       <description></description>
     </item>
+    <item>
+      <title>CAD</title>
+      <link>http://localhost:1313/tags/cad/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cad/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

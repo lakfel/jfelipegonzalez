@@ -13,8 +13,7 @@ categories:
   - "HCI"
 tags:
   - "HCI"
-  - "VR"
-  - "Haptics"
+  - "CAD"
 
 draft: false
 ---
@@ -25,23 +24,22 @@ draft: false
 
 You know how most 3D CAD tools are pretty intuitive, with those drag-and-drop interfaces that let you tweak your designs with ease? Well, there’s another side to CAD—a programming-based approach. Sure, it can seem a bit daunting at first, with all the coding involved, but it opens up some incredible possibilities for your designs. 
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-
-  <div style="flex: 1 1 45%; max-width: 45%; text-align: center;">
+<div class="image-container">
+  <div class="image-item">
     <a href="https://openscad.org/" target="_blank">
-      <img src="/imgs/projects/pr_facilitating/PB_OpenSCAD.png" alt="Programming-based CAD application OpenSCAD" style="width: 100%; height: auto;">
+      <img src="/imgs/projects/pr_facilitating/PB_OpenSCAD.png" alt="Programming-based CAD application OpenSCAD">
     </a>
     <p>OpenSCAD: A powerful programming-based CAD tool for creating complex 3D models.</p>
   </div>
 
-  <div style="flex: 1 1 45%; max-width: 45%; text-align: center;">
+  <div class="image-item">
     <a href="https://openjscad.xyz/" target="_blank">
-      <img src="/imgs/projects/pr_facilitating/PB_JSCAD.png" alt="Programming-based CAD application JSCAD" style="width: 100%; height: auto;">
+      <img src="/imgs/projects/pr_facilitating/PB_JSCAD.png" alt="Programming-based CAD application JSCAD">
     </a>
     <p>JSCAD: A versatile JavaScript-based CAD tool for 3D design and modeling.</p>
   </div>
-
 </div>
+
 
 The problem is that not many people use it. Why? Mainly because it’s not the easiest thing to get into, and honestly, we don’t fully understand all the challenges that come with it.
 

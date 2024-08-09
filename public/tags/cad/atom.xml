@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CAD on J. Felipe Gonzalez, Ph.D.</title>
+    <link>http://localhost:1313/tags/cad/</link>
+    <description>Recent content in CAD on J. Felipe Gonzalez, Ph.D.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cad/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Facilitating Programming-based 3D Computer-Aided Design using Bidirectional Programming</title>
+      <link>http://localhost:1313/projects/pr_facilitating_programming-based_cad/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/pr_facilitating_programming-based_cad/</guid>
+      <description>Hello, designer with a programming background in CAD! This project is all about making your 3D design experience smoother and more enjoyable, especially if you&amp;rsquo;re the kind of person who loves getting into the code. It&amp;rsquo;s based on my PhD thesis, which you can check out here.&#xA;You know how most 3D CAD tools are pretty intuitive, with those drag-and-drop interfaces that let you tweak your designs with ease? Well, there’s another side to CAD—a programming-based approach.</description>
+    </item>
+  </channel>
+</rss>
