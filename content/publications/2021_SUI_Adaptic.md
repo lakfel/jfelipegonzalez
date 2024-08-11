@@ -30,6 +30,7 @@ tags:
 note: ""
 video: "/videos/2021_SUI_Adaptic2.mp4"
 bibfile: "/bibtex/2021_SUI_Adaptic.bib"
+ACM_Ref: "J. Felipe Gonzalez, John C McClelland, Robert J Teather, Pablo Figueroa, and Audrey Girouard. 2021. Adaptic: A Shape Changing Prop with Haptic Retargeting. In Proceedings of the 2021 ACM Symposium on Spatial User Interaction (SUI '21). Association for Computing Machinery, New York, NY, USA, Article 4, 1–13. https://doi.org/10.1145/3485279.3485293"
 links:
   - url: "/pdfs/2021_SUI_Adaptic.pdf"
     icon: "fa-file-pdf"

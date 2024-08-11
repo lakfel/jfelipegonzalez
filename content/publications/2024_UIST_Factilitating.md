@@ -28,6 +28,7 @@ tags:
 note: ""
 video: "/videos/2024_UIST_Facilitating.mp4"
 bibfile: "/bibtex/2024_UIST_Factilitating.bib"
+ACM_Ref: "J Felipe Gonzalez, Thomas Pietrzak, Audrey Girouard, and Géry Casiez. 2024. Facilitating the Parametric Definition of Geometric Properties in Programming-Based CAD. In Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology (UIST '24). Association for Computing Machinery,Pittsburgh, PA, USA,  https://doi.org/10.1145/3613904.3642566"
 links:
   - url: "/pdfs/2024_UIST_Factilitating.pdf"
     icon: "fa-file-pdf"

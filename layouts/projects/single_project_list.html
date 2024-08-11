@@ -12,6 +12,7 @@
   <div class="content">
     {{ partial "header.html" . }}
     <section>
+      <h1>{{ .Title }}</h1>
       {{ .Content }}
 
         {{ range sort .Pages  "Params.order" "asc"}}

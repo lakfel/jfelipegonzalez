@@ -28,6 +28,7 @@ tags:
 note: ""
 video: "/videos/2024_CHI_Uniderstanding.mp4"
 bibfile: "/bibtex/2024_CHI_Understanding.bib"
+ACM_Ref: "J Felipe Gonzalez, Thomas Pietrzak, Audrey Girouard, and Géry Casiez. 2024. Understanding the Challenges of OpenSCAD Users for 3D Printing. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '24). Association for Computing Machinery, New York, NY, USA, Article 351, 1–20. https://doi.org/10.1145/3613904.3642566"
 links:
   - url: "/pdfs/2024_CHI_Understanding.pdf"
     icon: "fa-file-pdf"

@@ -67,15 +67,19 @@
                   <small>
                     {{ if .Params.links }}
                       {{ range .Params.links }}
-                        {{ if .local }}
-                          <a class="pub-button" href="{{ $.Site.BaseURL }}{{ .url }}" target="_blank"><i class="fa {{ .icon }}" aria-hidden="true"></i> {{ .text }}</a>
-                        {{ else }}
+                        {{/* if .local */}}
                           <a class="pub-button" href="{{ .url }}" target="_blank"><i class="fa {{ .icon }}" aria-hidden="true"></i> {{ .text }}</a>
-                        {{ end }}
+                        {{/* else }}
+                          <a class="pub-button" href="{{ .url }}" target="_blank"><i class="fa {{ .icon }}" aria-hidden="true"></i> {{ .text }}</a>
+                        
+                        {{ end */}}
                       {{ end }}
                     {{ end }}
                     {{ if .Params.bibfile }}
-                    <a class="pub-button" id="buttonbib-{{ .Params.bibfile }}" href="javascript:void(0);" onclick="toggleBibtex('{{ .Params.bibfile }}')"><i class="fa fa-caret-down" aria-hidden="true"></i> Bibtex</a>
+                    <a class="pub-button" id="buttonbib-{{ .Params.bibfile }}" href="javascript:void(0);" onclick="toggleBibtex('bib','{{ .Params.bibfile }}')"><i class="fa fa-caret-down" aria-hidden="true"></i> Bibtex</a>
+                    {{ end }}
+                    {{ if .Params.ACM_Ref }}
+                    <a class="pub-button" id="buttonRef-{{ .Params.bibfile }}" href="javascript:void(0);" onclick="toggleBibtex('acmref','{{ .Params.bibfile }}')"><i class="fa fa-caret-down" aria-hidden="true"></i> ACM Ref</a>
                     {{ end }}
                   </small>
                 </div>
@@ -83,6 +87,12 @@
                   <textarea class="form-control" rows="20" readonly="">{{ readFile (printf "static/%s" .Params.bibfile) }}
                   </textarea>
                 </div>
+                {{ if .Params.ACM_Ref}}
+                <div id="cite-{{ .Params.bibfile }}" style="display:none;">
+                  <textarea class="form-control" rows="20" readonly="">{{ .Params.ACM_Ref }}
+                  </textarea>
+                </div>
+                {{ end }}
               </div>
             </div>
           </div>
@@ -95,9 +105,20 @@
 
   <!-- Script para el toggle del bibtex -->
   <script>
-    function toggleBibtex(id) {
-      var element = document.getElementById('bibtex-' + id);
-      var elementBut = document.getElementById('buttonbib-' + id);
+    function toggleBibtex(type, id) {
+      
+      var element;
+      var elementBut ;
+      if(type == 'bib')  
+      {
+         element = document.getElementById('bibtex-' + id);
+         elementBut = document.getElementById('buttonbib-' + id);
+      }
+      else
+      {
+        element = document.getElementById('cite-' + id);
+        elementBut = document.getElementById('buttonRef-' + id);
+      }
       if (element.style.display === 'none') {
         element.style.display = 'block';
         elementBut.classList.remove('pub-button');

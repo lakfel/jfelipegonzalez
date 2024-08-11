@@ -29,6 +29,7 @@ tags:
 note: ""
 video: "/videos/2023_SUI_Introducing.mp4"
 bibfile: "/bibtex/2023_SUI_Introducing.bib"
+ACM_Ref: "J. Felipe Gonzalez, Danny Kieken, Thomas Pietrzak, Audrey Girouard, and Géry Casiez. 2023. Introducing Bidirectional Programming in Constructive Solid Geometry-Based CAD. In Proceedings of the 2023 ACM Symposium on Spatial User Interaction (SUI '23). Association for Computing Machinery, New York, NY, USA, Article 13, 1–12. https://doi.org/10.1145/3607822.3614521"
 links:
   - url: "/pdfs/2023_SUI_Introducing.pdf"
     icon: "fa-file-pdf"
