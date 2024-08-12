@@ -78,9 +78,9 @@
                     {{ if .Params.bibfile }}
                     <a class="pub-button" id="buttonbib-{{ .Params.bibfile }}" href="javascript:void(0);" onclick="toggleBibtex('bib','{{ .Params.bibfile }}')"><i class="fa fa-caret-down" aria-hidden="true"></i> Bibtex</a>
                     {{ end }}
-                    {{ if .Params.ACM_Ref }}
+                    {{/* if .Params.ACM_Ref }}
                     <a class="pub-button" id="buttonRef-{{ .Params.bibfile }}" href="javascript:void(0);" onclick="toggleBibtex('acmref','{{ .Params.bibfile }}')"><i class="fa fa-caret-down" aria-hidden="true"></i> ACM Ref</a>
-                    {{ end }}
+                    {{ end */}}
                   </small>
                 </div>
                 <div id="bibtex-{{ .Params.bibfile }}" style="display:none;">
