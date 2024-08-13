@@ -16,7 +16,7 @@
         <h1>{{ .Title }}</h1>
         {{ .Content }}
 
-        {{ $titlePr := .Title}}
+        {{/* $titlePr := .Title}}
         {{ if .Params.publications }}
         <h2>Publications</h2>
         <ul>
@@ -24,7 +24,20 @@
           <li><a href="/publications/{{ . }}">{{ $titlePr }}</a></li>
           {{ end }} 
         </ul>
-        {{ end }}
+        {{ end */}}
+        {{ $relatedPublications := .Params.publications }}
+        {{ if $relatedPublications}}
+        <h2>Related Publications</h2>
+        <ul>
+          {{ range site.RegularPages }}
+            {{ if and (eq .Section "publications") (in $relatedPublications .File.BaseFileName) }}
+              <li>
+                <a href="{{ .Permalink }}">{{ .Params.ACM_Ref }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      {{ end }}
 
         {{ if ne .Section "pages" }}
         <div class="post-date">

@@ -37,13 +37,20 @@
              <a class="link" href="{{ .Permalink }}" title="{{ .Title }}"><i class="fa fa-link fa-lg" style="font-size:12px" aria-hidden="true"></i> Check it out!</a>
         </span>
         {{ end }} 
-        {{ if .Params.publications }}
-        <h2>Publications</h2>
-        <ul>
-          {{ range .Params.publications }}
-          <li><a href="/publications/{{ .link }}">{{ .name  }}</a></li>
-          {{ end }} 
-        </ul>
+        {{ $relatedPublications := .Params.publications }}
+        {{ if $relatedPublications }}
+          <h2>Related Publications</h2>
+          <ul>
+            {{ $counter := 0 }} <!-- Initialize a counter -->
+            {{ range site.RegularPages }}
+              {{ if and (eq .Section "publications") (in $relatedPublications .File.BaseFileName) }}
+                {{ $counter = add $counter 1 }} <!-- Increment the counter -->
+                <li>
+                  <a href="{{ .Permalink }}">{{ printf "[%d] " $counter }}{{ .Params.ACM_Ref }}</a>
+                </li>
+              {{ end }}
+            {{ end }}
+          </ul>
         {{ end }}
 
     </section>
