@@ -1,6 +1,6 @@
 ---
 title: "Adaptic: A Shape Changing Prop with Haptic Retargeting"
-description: ""
+description: "Our project addresses the challenge in VR of handling multiple interactable objects using props that match the object's shape. By integrating a versatile shape-changing prop with haptic retargeting technology, we create the sensation of interacting with various objects in different VR spaces using just one physical prop. Take a look at our compelling results."
 type: "projects"
 date: 2020-11-01
 authors:
@@ -8,6 +8,7 @@ authors:
     me: true
 redirect_link : "https://cil.csit.carleton.ca/bidirectional-programming-csg-cad/"
 
+video: "/videos/2021_SUI_Adaptic2.mp4"
 categories:
   - "Technology"
   - "Research"

@@ -1,6 +1,6 @@
 ---
 title: "Facilitating Programming-based 3D Computer-Aided Design using Bidirectional Programming"
-description: ""
+description: "This project focuses on improving the design experience in programming-based CAD applications, using OpenSCAD as a case study. By understanding the challenges faced by users through interviews with real users, I introduced innovative interactive features. These features include enhanced navigation for seamless interaction with the interface, real-time object manipulation with automatic code updates, and simplified creation of parametric designs through intuitive actions rather than complex calculations"
 type: "projects"
 date: 2020-11-01
 authors:
@@ -14,9 +14,12 @@ categories:
   - "HCI"
 tags:
   - "HCI"
+  - "Programming-based CAD"
   - "CAD"
+  - "OpenSCAD"
 proj: "pr_facilitating_programming-based_cad"
 subproj: ""
+video: "/videos/2023_SUI_Introducing.mp4"
 layout: "single_project_list"
 publications: 
   - "2024_chi_understanding"
