@@ -7,5 +7,6 @@ type: "root"
 draft: false
 ---
 
+## Projects
 
 Here you will find some current and previous projects I have worked on.
