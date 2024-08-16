@@ -40,19 +40,19 @@
         {{ $relatedPublications := .Params.publications }}
         {{ if $relatedPublications }}
           <h2>Related Publications</h2>
-          {{ range $relatedPublications }}
-          Publication : {{ . }} <br>
-        {{ end }}
+          {{/* range $relatedPublications }}
+            Publication : {{ . }} <br>
+          {{ end */}}
           <ul>
             {{ $counter := 0 }} <!-- Initialize a counter -->
             {{ range site.RegularPages }}
-              {{ .Section }} - {{ .File.BaseFileName }} <br>
-              {{/* if and (eq .Section "publications") (in $relatedPublications .File.BaseFileName) }}
+              {{/* .Section }} - {{ strings.ToLower .File.BaseFileName */}} 
+              {{ if and (eq .Section "publications") (in $relatedPublications (strings.ToLower .File.BaseFileName)) }}
                 {{ $counter = add $counter 1 }} <!-- Increment the counter -->
                 <li>
                   <a href="{{ .Permalink }}">{{ printf "[%d] " $counter }}{{ .Params.ACM_Ref }}</a>
                 </li>
-              {{ end */}}
+              {{ end }}
             {{ end }}
           </ul>
         {{ end }}

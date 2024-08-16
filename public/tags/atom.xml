@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on J. Felipe Gonzalez, Ph.D.</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on J. Felipe Gonzalez, Ph.D.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bidirectionnal Programming</title>
+      <link>http://localhost:1313/tags/bidirectionnal-programming/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bidirectionnal-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HCI</title>
+      <link>http://localhost:1313/tags/hci/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hci/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming-Based CAD</title>
+      <link>http://localhost:1313/tags/programming-based-cad/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/programming-based-cad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Haptics</title>
+      <link>http://localhost:1313/tags/haptics/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/haptics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VR</title>
+      <link>http://localhost:1313/tags/vr/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CAD</title>
+      <link>http://localhost:1313/tags/cad/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cad/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
