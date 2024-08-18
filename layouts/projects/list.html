@@ -31,11 +31,11 @@
               <div style="display: flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
               </div>
               <div  style="margin-top: 10px; font-weight: 100; font-size: 16px;margin-bottom: 5px;">
-                <a href="{{ .Permalink }}"><span style="font-weight: 600;">{{ .Title }}</span></a>
+                <a href="{{ .Permalink }}"><span style="font-weight: 600;">{{ .Title }}</span></a> <br>
                 {{ .Params.description }}
-                <span style="color: rgb(108, 116, 231); padding-right: 5px; padding-left: 5px; border-radius: 0px; white-space: nowrap;">
+                {{/*<span style="color: rgb(108, 116, 231); padding-right: 5px; padding-left: 5px; border-radius: 0px; white-space: nowrap;">
                   <a class="link" href="{{ .Permalink }}" title="{{ .Title }}"><i class="fa fa-link fa-lg" style="font-size:12px" aria-hidden="true"></i> Check it out!</a>
-                </span>
+                </span>*/}}
                 <br>
 
                 {{ $relatedPublications := .Params.publications }}

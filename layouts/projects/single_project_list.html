@@ -33,9 +33,9 @@
           {{ else }}
             Project: {{ .Title }}
           {{ end }}
-          <span style="background-color: rgba(0, 0, 0, 0.5); color: white; padding-right: 5px; padding-left: 5px; border-radius: 0px; white-space: nowrap;">
+          {{/*<span style="background-color: rgba(0, 0, 0, 0.5); color: white; padding-right: 5px; padding-left: 5px; border-radius: 0px; white-space: nowrap;">
              <a class="link" href="{{ .Permalink }}" title="{{ .Title }}"><i class="fa fa-link fa-lg" style="font-size:12px" aria-hidden="true"></i> Check it out!</a>
-        </span>
+          </span>*/}}
         {{ end }} 
         {{ $relatedPublications := .Params.publications }}
         {{ if $relatedPublications }}
@@ -51,6 +51,18 @@
               {{ end }}
             {{ end }}
           </ul>
+        {{ end }}
+        
+        {{ if ne .Section "pages" }}
+        <div class="post-date">
+          <span class="g time">{{.Date.Format "January 2, 2006"}} </span> &#8729;
+          {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
+          {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s"
+          $taxonomy $tag) -}}
+          <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>
+          {{- end -}} {{- end -}}
+          {{ end }}
+        </div>
         {{ end }}
 
     </section>

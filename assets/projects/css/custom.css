@@ -109,3 +109,22 @@ a:hover {
   position: static; /* Vuelve al flujo del documento */
   pointer-events: auto; /* Hace que el elemento sea interactivo */
 }
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-item {
+  flex: 1 1 45%; /* Esto permite que las imágenes se ajusten y envuelvan si el espacio es reducido */
+  max-width: 400px; /* Tamaño máximo de cada imagen-item */
+  text-align: center; /* Centra el texto */
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+}

@@ -29,5 +29,12 @@
       <guid>http://localhost:1313/publications/2023_sui_introducing/</guid>
       <description>Abstract 3D Computer-Aided Design (CAD) users need to overcome several obstacles to benefit from the flexibility of programmatic interface tools. Besides the barriers of any programming language, users face challenges inherent to 3D spatial interaction. Scripting simple operations, such as moving an element in 3D space, can be significantly more challenging than performing the same task using direct manipulation. We introduce the concept of bidirectional programming for Constructive Solid Geometry (CSG) CAD tools, informed by interviews we performed with programmatic interface users.</description>
     </item>
+    <item>
+      <title>Facilitating Programming-based 3D Computer-Aided Design using Bidirectional Programming</title>
+      <link>http://localhost:1313/projects/pr_facilitating_programming-based_cad/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/pr_facilitating_programming-based_cad/</guid>
+      <description>Hello, designer with a programming background in CAD! This project is all about making your 3D design experience smoother and more enjoyable, especially if you&amp;rsquo;re the kind of person who loves getting into the code. It&amp;rsquo;s based on my PhD thesis, which you can check out here.&#xA;You know how most 3D CAD tools are pretty intuitive, with those drag-and-drop interfaces that let you tweak your designs with ease? Well, there’s another side to CAD—a programming-based approach.</description>
+    </item>
   </channel>
 </rss>

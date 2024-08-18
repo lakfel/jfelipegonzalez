@@ -29,35 +29,22 @@ draft: false
 ---
 
 
-**Hello, designer with a programming background in CAD!** This project is all about making your 3D design experience smoother and more enjoyable, especially if you're the kind of person who loves getting into the code. It's based on my PhD thesis, which you can check out [here](https://hal.science/tel-04635570).
+**Hey !** This project is aimed at improving the 3D design experience for users working with **programming-based CAD** applications where you must design in a text editor with a programming language while the application renders the visual representation of the model in a viewport after compiling, like [OpenSCAD](https://openscad.org/) and [JSCAD](https://openjscad.xyz/). It draws on insights from my PhD research, which you can explore in more detail [here](https://hal.science/tel-04635570).
 
-
-You know how most 3D CAD tools are pretty intuitive, with those drag-and-drop interfaces that let you tweak your designs with ease? Well, there’s another side to CAD—a programming-based approach. Sure, it can seem a bit daunting at first, with all the coding involved, but it opens up some incredible possibilities for your designs. 
+While many CAD tools feature intuitive drag-and-drop interfaces, programming-based CAD offers a unique, code-driven approach that unlocks powerful design possibilities. Though it can initially feel challenging, this method allows for greater precision and complexity in 3D modeling.
 
 <div class="image-container">
   <div class="image-item">
-    <a href="https://openscad.org/" target="_blank">
       <img src="/imgs/projects/pr_facilitating/PB_OpenSCAD.png" alt="Programming-based CAD application OpenSCAD">
-    </a>
-    <p>OpenSCAD: A powerful programming-based CAD tool for creating complex 3D models.</p>
+    <p><a href="https://openscad.org/" target="_blank"> OpenSCAD: </a> A robust programming-based CAD tool for creating intricate 3D models.</p>
   </div>
-
   <div class="image-item">
-    <a href="https://openjscad.xyz/" target="_blank">
       <img src="/imgs/projects/pr_facilitating/PB_JSCAD.png" alt="Programming-based CAD application JSCAD">
-    </a>
-    <p>JSCAD: A versatile JavaScript-based CAD tool for 3D design and modeling.</p>
+    <p> <a href="https://openjscad.xyz/" target="_blank"> JSCAD:</a> A flexible JavaScript-based CAD tool for advanced 3D modeling.</p>
   </div>
 </div>
 
-
-The problem is that not many people use it. Why? Mainly because it’s not the easiest thing to get into, and honestly, we don’t fully understand all the challenges that come with it.
-
-That’s why I dove into this research. I wanted to explore the world of programming-based CAD and figure out how to make it more user-friendly, especially for those of you who are into 3D printing and digital fabrication.
-
-Check out the projects I have worked on!
-
-
+Through this project, I address key challenges faced by programming-based CAD users. By introducing innovative interactive features and leveraging **bidirectional programming**, I aim to make this approach more accessible and intuitive.
 
 <!--
 ### Getting to Know the Users: Challenges Faced by 3D Code Designers
