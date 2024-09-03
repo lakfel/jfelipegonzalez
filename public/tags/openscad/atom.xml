@@ -6,14 +6,14 @@
     <description>Recent content in OpenSCAD on J. Felipe Gonzalez, Ph.D.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Aug 2024 09:11:38 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/openscad/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Facilitating Programming-based 3D Computer-Aided Design using Bidirectional Programming</title>
       <link>http://localhost:1313/projects/pr_facilitating_programming-based_cad/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/pr_facilitating_programming-based_cad/</guid>
-      <description>Hello, designer with a programming background in CAD! This project is all about making your 3D design experience smoother and more enjoyable, especially if you&amp;rsquo;re the kind of person who loves getting into the code. It&amp;rsquo;s based on my PhD thesis, which you can check out here.&#xA;You know how most 3D CAD tools are pretty intuitive, with those drag-and-drop interfaces that let you tweak your designs with ease? Well, there’s another side to CAD—a programming-based approach.</description>
+      <description>Hey ! This project is aimed at improving the 3D design experience for users working with programming-based CAD applications where you must design in a text editor with a programming language while the application renders the visual representation of the model in a viewport after compiling, like OpenSCAD and JSCAD. It draws on insights from my PhD research, which you can explore in more detail here.&#xA;While many CAD tools feature intuitive drag-and-drop interfaces, programming-based CAD offers a unique, code-driven approach that unlocks powerful design possibilities.</description>
     </item>
   </channel>
 </rss>

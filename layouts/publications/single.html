@@ -11,7 +11,7 @@
     <div class="content">
       {{ partial "header.html" . }}
       <section>
-        <h1>{{ .Params.title_paper }}</h1>
+        <h1>{{ .Title }}</h1>
         <div style="position: relative; border-radius: 3px; display: flex; flex-direction: column; justify-content: space-between;" >
             {{ if .Params.video }}
             {{/*<div style="position: relative; overflow: hidden; float: left; margin-right: 10px; max-height: 144px; max-width: 256px; width: 100%;">*/}}

@@ -1,6 +1,6 @@
 ---
-title: "2024_UIST_Factilitating"
-title_paper: "Facilitating the Parametric Definition of Geometric Properties in Programming-Based CAD"
+title_paper: "2024_UIST_Factilitating"
+title: "Facilitating the Parametric Definition of Geometric Properties in Programming-Based CAD"
 description: ""
 date: 2024-08-01
 authors:

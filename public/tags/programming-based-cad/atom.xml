@@ -6,27 +6,27 @@
     <description>Recent content in Programming-Based CAD on J. Felipe Gonzalez, Ph.D.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Aug 2024 09:26:28 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/programming-based-cad/atom.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2024_UIST_Factilitating</title>
-      <link>http://localhost:1313/publications/2024_uist_factilitating/</link>
+      <title>Facilitating the Parametric Definition of Geometric Properties in Programming-Based CAD</title>
+      <link>http://localhost:1313/publications/facilitating-the-parametric-definition-of-geometric-properties-in-programming-based-cad/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/2024_uist_factilitating/</guid>
+      <guid>http://localhost:1313/publications/facilitating-the-parametric-definition-of-geometric-properties-in-programming-based-cad/</guid>
       <description>Abstract Parametric Computer-aided design (CAD) enables the creation of reusable models by integrating variables into geometric properties, facilitating customization without a complete redesign. However, creating parametric designs in programming-based CAD presents significant challenges. Users define models in a code editor using a programming language, with the application generating a visual representation in a viewport. This rocess involves complex programming and arithmetic expressions to describe geometric properties, linking various object properties to create parametric designs.</description>
     </item>
     <item>
-      <title>2024_CHI_Understanding</title>
+      <title>Understanding the Challenges of OpenSCAD Users for 3D Printing</title>
       <link>http://localhost:1313/publications/2024_chi_understanding/</link>
       <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/2024_chi_understanding/</guid>
       <description>Abstract Direct manipulation has been established as the main interaction paradigm for Computer-Aided Design (CAD) for decades. It provides fast, incremental, and reversible actions that allow for an iterative process on a visual representation of the result. Despite its numerous advantages, some users prefer a programming-based approach where they describe the 3D model they design with a specific programming language, such as OpenSCAD. It allows users to create complex structured geometries and facilitates abstraction.</description>
     </item>
     <item>
-      <title>2023_SUI_Introducing</title>
-      <link>http://localhost:1313/publications/2023_sui_introducing/</link>
+      <title>Introducing Bidirectional Programming in Constructive Solid Geometry-Based CAD</title>
+      <link>http://localhost:1313/publications/introducing-bidirectional-programming-in-constructive-solid-geometry-based-cad/</link>
       <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/2023_sui_introducing/</guid>
+      <guid>http://localhost:1313/publications/introducing-bidirectional-programming-in-constructive-solid-geometry-based-cad/</guid>
       <description>Abstract 3D Computer-Aided Design (CAD) users need to overcome several obstacles to benefit from the flexibility of programmatic interface tools. Besides the barriers of any programming language, users face challenges inherent to 3D spatial interaction. Scripting simple operations, such as moving an element in 3D space, can be significantly more challenging than performing the same task using direct manipulation. We introduce the concept of bidirectional programming for Constructive Solid Geometry (CSG) CAD tools, informed by interviews we performed with programmatic interface users.</description>
     </item>
     <item>
@@ -34,7 +34,7 @@
       <link>http://localhost:1313/projects/pr_facilitating_programming-based_cad/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/pr_facilitating_programming-based_cad/</guid>
-      <description>Hello, designer with a programming background in CAD! This project is all about making your 3D design experience smoother and more enjoyable, especially if you&amp;rsquo;re the kind of person who loves getting into the code. It&amp;rsquo;s based on my PhD thesis, which you can check out here.&#xA;You know how most 3D CAD tools are pretty intuitive, with those drag-and-drop interfaces that let you tweak your designs with ease? Well, there’s another side to CAD—a programming-based approach.</description>
+      <description>Hey ! This project is aimed at improving the 3D design experience for users working with programming-based CAD applications where you must design in a text editor with a programming language while the application renders the visual representation of the model in a viewport after compiling, like OpenSCAD and JSCAD. It draws on insights from my PhD research, which you can explore in more detail here.&#xA;While many CAD tools feature intuitive drag-and-drop interfaces, programming-based CAD offers a unique, code-driven approach that unlocks powerful design possibilities.</description>
     </item>
   </channel>
 </rss>

@@ -19,6 +19,8 @@ theme = 'maverick'
   #  githubRepo = 'canhtran/maverick'
   #  theme = 'github-light'
 
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime"]
 
 [menu]
   #[[menu.main]]

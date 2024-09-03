@@ -1,6 +1,6 @@
 ---
-title: "2021_SUI_Adaptic"
-title_paper : "Adaptic: A Shape Changing Prop with Haptic Retargeting"
+title_paper: "2021_SUI_Adaptic"
+title : "Adaptic: A Shape Changing Prop with Haptic Retargeting"
 description: ""
 date: 2021-11-09
 authors:

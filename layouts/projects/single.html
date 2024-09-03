@@ -14,6 +14,10 @@
       {{ partial "header.html" . }}
       <section>
         <h1>{{ .Title }}</h1>
+        {{ if .Lastmod }}
+          <small style="font-style:italic; color:darkgrey">Last Updated: {{ .Lastmod.Format "Jan 2, 2006" }}</small>
+        {{ end }}
+
         {{ .Content }}
 
         {{/* $titlePr := .Title}}

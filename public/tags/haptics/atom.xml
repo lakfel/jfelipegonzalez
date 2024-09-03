@@ -6,13 +6,13 @@
     <description>Recent content in Haptics on J. Felipe Gonzalez, Ph.D.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Aug 2024 09:26:08 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/haptics/atom.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2021_SUI_Adaptic</title>
-      <link>http://localhost:1313/publications/2021_sui_adaptic/</link>
+      <title>Adaptic: A Shape Changing Prop with Haptic Retargeting</title>
+      <link>http://localhost:1313/publications/adaptic-a-shape-changing-prop-with-haptic-retargeting/</link>
       <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/2021_sui_adaptic/</guid>
+      <guid>http://localhost:1313/publications/adaptic-a-shape-changing-prop-with-haptic-retargeting/</guid>
       <description>Abstract We present Adaptic, a novel &amp;ldquo;hybrid&amp;rdquo; active/passive haptic device that can change shape to act as a proxy for a range of virtual objects in VR. We use Adaptic with haptic retargeting to redirect the user’s hand to provide haptic feedback for several virtual objects in arm’s reach using only a single prop. To evaluate the effectiveness of Adaptic with haptic retargeting, we conducted a within-subjects experiment employing a docking task to compare Adaptic to non-matching proxy objects (i.</description>
     </item>
     <item>
