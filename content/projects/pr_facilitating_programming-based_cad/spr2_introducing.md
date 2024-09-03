@@ -21,6 +21,9 @@ subproject: "spr1_understanding"
 layout : "single"
 publications:
   - "2023_sui_introducing"
+todo:
+  - Improve description with videos
+  - Link with the Github development made by Damien Marchal
 draft: false
 ---
 
@@ -132,11 +135,11 @@ After clicking, the system places a widget representing the three axes (X,Y, and
 
 This is a project in development and as such it has some limitations. We are currently working to partially integratint this features in OpenSCAD.
 
-## Only one-file models
+### Only one-file models
 Currently, interactive features ONLY work with models scripted in one file
 
-## Constraints editing not supported… yet
+### Constraints editing not supported… yet
 Currently, the system does not support making edits on statements with variable-based constraints. When trying to edit one, the system will not perform any action.
 
-## Previous versions
+### Previous versions
 For checking previous versions visit this [link](https://nextcloud.univ-lille.fr/index.php/s/5mpHrFtfbrMGDS4).
