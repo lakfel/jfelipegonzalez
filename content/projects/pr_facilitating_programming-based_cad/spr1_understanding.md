@@ -1,6 +1,7 @@
 ---
 title: "Understanding the Challenges of OpenSCAD Users for 3D Printing"
 title_list: "Getting to Know the Users: Challenges Faced by 3D Code Designers"
+url : "/projects/understanding-openscad-challenges-for-3d-printing"
 order: 1
 description_list: "I talked to 20 OpenSCAD users—a major tool in the programming-based CAD world. I wanted to get a real sense of what makes this approach challenging. From these conversations, I identified three main areas where users struggle: who the users are, the hurdles they face in 3D design, and the headaches that come up during 3D printing. For example, some users found it tough to visualize how changes in the code would affect the 3D model, while others struggled with the mathematics involved in creating parametric desings."
 video: "/videos/2024_CHI_Uniderstanding.mp4"

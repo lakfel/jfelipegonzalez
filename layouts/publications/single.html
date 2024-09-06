@@ -81,10 +81,33 @@
               </div>
             </div>
           </div>
-        <div style ="float: left; ">
+        <div>
             {{ .Content }}
         </div>
-
+        {{/*<div style="position: relative; border-radius: 3px; display: flex; flex-direction: column; justify-content: space-between;" >
+            <div style="float: right; margin-top: 10px;">
+              <small>
+                {{ if .Params.links }}
+                  {{ range .Params.links }}
+                    {{ if .local }}
+                      <a class="pub-button" href="{{ $.Site.BaseURL }}{{ .url }}" target="_blank"><i class="fa {{ .icon }}" aria-hidden="true"></i> {{ .text }}</a>
+                    {{ else }}
+                      <a class="pub-button" href="{{ .url }}" target="_blank"><i class="fa {{ .icon }}" aria-hidden="true"></i> {{ .text }}</a>
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+                {{ if .Params.bibfile }}
+                <a class="pub-button" id="buttonbib-{{ .Params.bibfile }}" href="javascript:void(0);" onclick="toggleBibtex('{{ .Params.bibfile }}')"><i class="fa fa-caret-down" aria-hidden="true"></i> Bibtex</a>
+                {{ end }}
+              </small>
+            </div>
+            <div id="bibtex-{{ .Params.bibfile }}" style="display:none;">
+              <textarea class="form-control" rows="20" readonly="">{{ readFile (printf "static/%s" .Params.bibfile) }}
+              </textarea>
+            </div>
+          </div>
+        </div>
+        */}}
       </section>
       {{ if eq .Section "posts" }}
       {{ if eq .Site.Params.comments.enabled true }}

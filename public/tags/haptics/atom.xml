@@ -6,7 +6,7 @@
     <description>Recent content in Haptics on J. Felipe Gonzalez, Ph.D.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Aug 2024 09:26:08 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 09:08:10 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/haptics/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adaptic: A Shape Changing Prop with Haptic Retargeting</title>
@@ -17,9 +17,9 @@
     </item>
     <item>
       <title>Adaptic: A Shape Changing Prop with Haptic Retargeting</title>
-      <link>http://localhost:1313/projects/pr_adaptic/</link>
+      <link>http://localhost:1313/projects/adaptic-shape-changing-prop-and-vr-haptic-reatergeting/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/pr_adaptic/</guid>
+      <guid>http://localhost:1313/projects/adaptic-shape-changing-prop-and-vr-haptic-reatergeting/</guid>
       <description>Imagine interacting with virtual objects in VR and feeling as if you&amp;rsquo;re actually handling them, all while using just a single device. That’s exactly what we aimed to achieve with Adaptic, our innovative haptic device. Unlike traditional props, Adaptic is a shape-changing device that can transform its form to match various virtual objects you’re manipulating in VR.&#xA;Here’s how it works: Adaptic uses a clever technique called haptic retargeting to adjust its shape and provide realistic feedback for different virtual items.</description>
     </item>
   </channel>

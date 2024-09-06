@@ -1,6 +1,7 @@
 ---
 title: "Facilitating the Parametric Definition of Geometric Properties in Programming-Based CAD"
 title_list: "Simplifying Parametric Design: Making Parametric Design Effortless"
+url : "/projects/interactive-parametric-design-in-programming-based-cad"
 order: 3
 description_list: "I focused on the challenge of defining geometric properties in parametric designs—a real pain point for many users. For instance, defining the exact dimensions or relationships between different parts of a model can get pretty complex. I analyzed a bunch of OpenSCAD models and developed new features to make it easier to define and manipulate these properties right from the 3D view. When I tested these new features with users, the results were promising. Not only did it make the design process faster and less error-prone, but it also made it much easier for beginners to jump in and start creating."
 video: "/videos/2024_UIST_Facilitating.mp4"

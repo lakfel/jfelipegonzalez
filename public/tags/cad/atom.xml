@@ -6,34 +6,34 @@
     <description>Recent content in CAD on J. Felipe Gonzalez, Ph.D.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Aug 2024 13:44:18 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 09:06:30 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/cad/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Facilitating Programming-based 3D Computer-Aided Design using Bidirectional Programming</title>
-      <link>http://localhost:1313/projects/pr_facilitating_programming-based_cad/</link>
+      <link>http://localhost:1313/projects/facilitating-programming-based-cad-with-bidirectionnal-programming/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/pr_facilitating_programming-based_cad/</guid>
+      <guid>http://localhost:1313/projects/facilitating-programming-based-cad-with-bidirectionnal-programming/</guid>
       <description>Hey ! This project is aimed at improving the 3D design experience for users working with programming-based CAD applications where you must design in a text editor with a programming language while the application renders the visual representation of the model in a viewport after compiling, like OpenSCAD and JSCAD. It draws on insights from my PhD research, which you can explore in more detail here.&#xA;While many CAD tools feature intuitive drag-and-drop interfaces, programming-based CAD offers a unique, code-driven approach that unlocks powerful design possibilities.</description>
     </item>
     <item>
       <title>Facilitating the Parametric Definition of Geometric Properties in Programming-Based CAD</title>
-      <link>http://localhost:1313/projects/pr_facilitating_programming-based_cad/spr3_facilitating/</link>
+      <link>http://localhost:1313/projects/interactive-parametric-design-in-programming-based-cad/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/pr_facilitating_programming-based_cad/spr3_facilitating/</guid>
+      <guid>http://localhost:1313/projects/interactive-parametric-design-in-programming-based-cad/</guid>
       <description>Parametric Computer-Aided Design (CAD) is a game-changer when it comes to creating customizable and reusable 3D models. By using variables in your designs, you can tweak and adjust models without starting from scratch. However, when it comes to programming-based CAD tools, things can get pretty complicated. These tools require users to code every aspect of their designs, linking various properties with complex mathematical expressions. This process can be daunting and error-prone, especially without much in the way of helpful assistance.</description>
     </item>
     <item>
       <title>Introducing Bidirectional Programming in Constructive Solid Geometry-Based CAD</title>
-      <link>http://localhost:1313/projects/pr_facilitating_programming-based_cad/spr2_introducing/</link>
+      <link>http://localhost:1313/projects/introducing-bidirectionnal-programmin-in-csg/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/pr_facilitating_programming-based_cad/spr2_introducing/</guid>
+      <guid>http://localhost:1313/projects/introducing-bidirectionnal-programmin-in-csg/</guid>
       <description>Programming-based CAD applications are powerful, but they come with challenges. Unlike traditional drag-and-drop interfaces, scripting in tools like OpenSCAD can be frustrating, especially when trying to locate specific parts of the model in the code or move an element in 3D space.&#xA;In this project, I introduced bidirectional programming for Constructive Solid Geometry (CSG) CAD tools. This approach lets you seamlessly switch between coding and the 3D view, allowing for easy navigation and editing.</description>
     </item>
     <item>
       <title>Understanding the Challenges of OpenSCAD Users for 3D Printing</title>
-      <link>http://localhost:1313/projects/pr_facilitating_programming-based_cad/spr1_understanding/</link>
+      <link>http://localhost:1313/projects/understanding-openscad-challenges-for-3d-printing/</link>
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/pr_facilitating_programming-based_cad/spr1_understanding/</guid>
+      <guid>http://localhost:1313/projects/understanding-openscad-challenges-for-3d-printing/</guid>
       <description>Computer-Aided Design (CAD) has long been dominated by direct manipulation tools—those intuitive, visual interfaces where designers can drag, drop, and tweak their creations with ease. While this approach has its merits, there&amp;rsquo;s a growing community of designers who prefer to take a different route: programming-based CAD. Tools like OpenSCAD allow users to describe their 3D models using code, offering unmatched precision and the ability to create complex, parametric designs. However, this method comes with its own set of challenges that are often overlooked.</description>
     </item>
   </channel>

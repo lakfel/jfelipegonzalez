@@ -1,5 +1,6 @@
 ---
 title: "Adaptic: A Shape Changing Prop with Haptic Retargeting"
+url : "/projects/adaptic-shape-changing-prop-and-vr-haptic-reatergeting"
 description: "Our project addresses the challenge in VR of handling multiple interactable objects using props that match the object's shape. By integrating a versatile shape-changing prop with haptic retargeting technology, we create the sensation of interacting with various objects in different VR spaces using just one physical prop. Take a look at our compelling results."
 type: "projects"
 date: 2020-11-01

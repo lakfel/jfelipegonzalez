@@ -1,5 +1,6 @@
 ---
 title: "Introducing Bidirectional Programming in Constructive Solid Geometry-Based CAD"
+url : "/projects/introducing-bidirectionnal-programmin-in-csg"
 title_list: "Bridging the Gap: Making Code and 3D Models Work Together"
 order: 2
 description_list: "I tackled a big issue in programming-based CAD: the tricky relationship between the code and the 3D view. It can be frustrating when you're trying to link what you see on the screen with the lines of code you're writing. To fix this, I introduced the concept of “bidirectional programming” into CAD. Now, you can interact with both the code and the view. Imagine this: you’re editing your model directly on the screen, and the code updates automatically. No more switching back and forth or guessing how a code tweak will look. I even tweaked OpenSCAD to make this a reality."
@@ -16,6 +17,7 @@ categories:
 tags:
   - "HCI"
   - "CAD"
+  - "OpenSCAD"
 project: "pr_facilitating_programming-based_cad"
 subproject: "spr1_understanding"
 layout : "single"
