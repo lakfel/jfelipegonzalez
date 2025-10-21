@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on J. Felipe Gonzalez, Ph.D.</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://jfelipegonzalez.com/tags/</link>
     <description>Recent content in Tags on J. Felipe Gonzalez, Ph.D.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Oct 2025 11:56:00 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/atom.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Oct 2025 13:38:21 -0400</lastBuildDate>
+    <atom:link href="https://jfelipegonzalez.com/tags/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Avatars</title>
-      <link>http://localhost:1313/tags/avatars/</link>
+      <link>https://jfelipegonzalez.com/tags/avatars/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/avatars/</guid>
+      <guid>https://jfelipegonzalez.com/tags/avatars/</guid>
       <description></description>
     </item>
     <item>
       <title>Controllers</title>
-      <link>http://localhost:1313/tags/controllers/</link>
+      <link>https://jfelipegonzalez.com/tags/controllers/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/controllers/</guid>
+      <guid>https://jfelipegonzalez.com/tags/controllers/</guid>
       <description></description>
     </item>
     <item>
       <title>Handtracking</title>
-      <link>http://localhost:1313/tags/handtracking/</link>
+      <link>https://jfelipegonzalez.com/tags/handtracking/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/handtracking/</guid>
+      <guid>https://jfelipegonzalez.com/tags/handtracking/</guid>
       <description></description>
     </item>
     <item>
       <title>HCI</title>
-      <link>http://localhost:1313/tags/hci/</link>
+      <link>https://jfelipegonzalez.com/tags/hci/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hci/</guid>
+      <guid>https://jfelipegonzalez.com/tags/hci/</guid>
       <description></description>
     </item>
     <item>
       <title>VR</title>
-      <link>http://localhost:1313/tags/vr/</link>
+      <link>https://jfelipegonzalez.com/tags/vr/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vr/</guid>
+      <guid>https://jfelipegonzalez.com/tags/vr/</guid>
       <description></description>
     </item>
     <item>
       <title>VR/AR</title>
-      <link>http://localhost:1313/tags/vr/ar/</link>
+      <link>https://jfelipegonzalez.com/tags/vr/ar/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vr/ar/</guid>
+      <guid>https://jfelipegonzalez.com/tags/vr/ar/</guid>
       <description></description>
     </item>
     <item>
       <title>Bidirectionnal Programming</title>
-      <link>http://localhost:1313/tags/bidirectionnal-programming/</link>
+      <link>https://jfelipegonzalez.com/tags/bidirectionnal-programming/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bidirectionnal-programming/</guid>
+      <guid>https://jfelipegonzalez.com/tags/bidirectionnal-programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming-Based CAD</title>
-      <link>http://localhost:1313/tags/programming-based-cad/</link>
+      <link>https://jfelipegonzalez.com/tags/programming-based-cad/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/programming-based-cad/</guid>
+      <guid>https://jfelipegonzalez.com/tags/programming-based-cad/</guid>
       <description></description>
     </item>
     <item>
       <title>Haptics</title>
-      <link>http://localhost:1313/tags/haptics/</link>
+      <link>https://jfelipegonzalez.com/tags/haptics/</link>
       <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/haptics/</guid>
+      <guid>https://jfelipegonzalez.com/tags/haptics/</guid>
       <description></description>
     </item>
     <item>
       <title>CAD</title>
-      <link>http://localhost:1313/tags/cad/</link>
+      <link>https://jfelipegonzalez.com/tags/cad/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cad/</guid>
+      <guid>https://jfelipegonzalez.com/tags/cad/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenSCAD</title>
-      <link>http://localhost:1313/tags/openscad/</link>
+      <link>https://jfelipegonzalez.com/tags/openscad/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/openscad/</guid>
+      <guid>https://jfelipegonzalez.com/tags/openscad/</guid>
       <description></description>
     </item>
   </channel>
