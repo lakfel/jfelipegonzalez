@@ -26,9 +26,9 @@ tags:
   - "Avatars"
 note: ""
 video: "videos/2025_ISMAR_Comparing.mp4"
-bibfile: "bibtex/2025_ISMAR_Comparing.bib.bib"
+bibfile: "bibtex/2025_ISMAR_Comparing.bib"
 links:
-  - url: "/pdfs/2025_ISMAR_Comparing.bib.pdf"
+  - url: "/pdfs/2025_ISMAR_Comparing.pdf"
     icon: "fa-file-pdf"
     text: "PDF"
 # - url: "https://dl.acm.org/doi/10.1145/3654777.3676417"

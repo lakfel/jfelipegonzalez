@@ -6,8 +6,15 @@
     <description>Recent content in Handtracking on J. Felipe Gonzalez, Ph.D.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Oct 2025 11:19:27 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 11:41:55 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/handtracking/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Effects of Virtual Controller Representation and Virtuality on Selection Performance in Extended Reality</title>
+      <link>http://localhost:1313/publications/effects-of-virtual-controller-representation-and-virtuality-on-selection-performance-in-extended-reality/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/effects-of-virtual-controller-representation-and-virtuality-on-selection-performance-in-extended-reality/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;We present an experiment exploring how the controller&amp;rsquo;s virtual representation impacts target acquisition performance across MR and VR contexts. Participants performed selection tasks comparing four visual configurations: a virtual controller, a virtual hand, both the controller and the hand, and neither representation. We found performance comparable between VR and MR, and switching between them did not impact the user&amp;rsquo;s ability to perform basic tasks. Controller representations mimicking reality enhanced performance across both modes. However, users perceived performance differently in MR, indicating the need for unique MR design considerations, particularly regarding spatial awareness.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Comparing Hand and Controller Avatars with Hand Tracking and Controller-Based Interaction</title>
       <link>http://localhost:1313/publications/comparing-hand-and-controller-avatars-with-hand-tracking-and-controller-based-interaction/</link>

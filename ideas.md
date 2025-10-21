@@ -4,6 +4,8 @@
 
 - Make the click on the video icon to open an embedded pop up displaying the video
 
+- Compress video size
+
 # Organization
 
 - Check my name in publications and make it standar Johann, JF ..
