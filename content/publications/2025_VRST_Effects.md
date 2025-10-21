@@ -1,5 +1,6 @@
 ---
 title_paper: "2025_VRST_Effects"
+slug: "2025_VRST_Effects"
 title: "Effects of Virtual Controller Representation and Virtuality on Selection Performance in Extended Reality"
 description: ""
 date: 2025-11-12

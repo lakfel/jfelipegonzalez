@@ -1,5 +1,6 @@
 ---
 title_paper: "2025_ISMAR_Comparing"
+slug: "2025_ISMAR_Comparing"
 title: "Comparing Hand and Controller Avatars with Hand Tracking and Controller-Based Interaction"
 description: ""
 date: 2025-10-08
@@ -25,7 +26,7 @@ tags:
   - "Handtracking"
   - "Avatars"
 note: ""
-video: "videos/2025_ISMAR_Comparing.mp4"
+video: "/videos/2025_ISMAR_Comparing.mp4"
 bibfile: "bibtex/2025_ISMAR_Comparing.bib"
 links:
   - url: "/pdfs/2025_ISMAR_Comparing.pdf"

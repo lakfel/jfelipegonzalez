@@ -1,5 +1,6 @@
 ---
 title_paper: "2024_CHI_Understanding"
+slug: "2024_CHI_Understanding"
 title: "Understanding the Challenges of OpenSCAD Users for 3D Printing"
 slug: "2024_CHI_Understanding"
 description: ""

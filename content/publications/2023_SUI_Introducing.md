@@ -1,5 +1,6 @@
 ---
 title_paper: "2023_SUI_Introducing"
+slug: "2023_SUI_Introducing"
 title : "Introducing Bidirectional Programming in Constructive Solid Geometry-Based CAD"
 description: ""
 date: 2023-10-13
