@@ -1,0 +1,223 @@
+  <!doctype html>
+
+
+
+  <html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - http://localhost:1313/">
+    <title>Understanding the Challenges of OpenSCAD Users for 3D Printing | J. Felipe Gonzalez, Ph.D.</title>
+    <meta name="description" content="Hola! This is me, Felipe Gonzalez...">
+    <meta property="og:url" content="http://localhost:1313/projects/understanding-openscad-challenges-for-3d-printing/">
+  <meta property="og:site_name" content="J. Felipe Gonzalez, Ph.D.">
+  <meta property="og:title" content="Understanding the Challenges of OpenSCAD Users for 3D Printing">
+  <meta property="og:description" content="Computer-Aided Design (CAD) has long been dominated by direct manipulation tools—those intuitive, visual interfaces where designers can drag, drop, and tweak their creations with ease. While this approach has its merits, there’s a growing community of designers who prefer to take a different route: programming-based CAD. Tools like OpenSCAD allow users to describe their 3D models using code, offering unmatched precision and the ability to create complex, parametric designs. However, this method comes with its own set of challenges that are often overlooked.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2020-01-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-07-31T07:23:44-04:00">
+    <meta property="article:tag" content="HCI">
+    <meta property="article:tag" content="CAD">
+
+    
+  <meta itemprop="name" content="Understanding the Challenges of OpenSCAD Users for 3D Printing">
+  <meta itemprop="description" content="Computer-Aided Design (CAD) has long been dominated by direct manipulation tools—those intuitive, visual interfaces where designers can drag, drop, and tweak their creations with ease. While this approach has its merits, there’s a growing community of designers who prefer to take a different route: programming-based CAD. Tools like OpenSCAD allow users to describe their 3D models using code, offering unmatched precision and the ability to create complex, parametric designs. However, this method comes with its own set of challenges that are often overlooked.">
+  <meta itemprop="datePublished" content="2020-01-24T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-07-31T07:23:44-04:00">
+  <meta itemprop="wordCount" content="296">
+  <meta itemprop="keywords" content="HCI,CAD">
+    
+    <link rel="canonical" href="http://localhost:1313/projects/understanding-openscad-challenges-for-3d-printing/">
+    <link rel="icon" href="http://localhost:1313//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="J. Felipe Gonzalez, Ph.D." href="http://localhost:1313//atom.xml" />
+    <link rel="alternate" type="application/json" title="J. Felipe Gonzalez, Ph.D." href="http://localhost:1313//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bricolage+Grotesque">
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 bricolage grotesque,-apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#fffdfa;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}header{display:flex;justify-content:space-between;align-items:center;position:relative;padding-bottom:1rem}header .burger{display:none;background:0 0;border:none;padding:0;cursor:pointer}header .burger span{display:block;width:25px;height:3px;background:#000;margin:5px 0;transition:all .3s ease}@media(max-width:768px){header .burger{display:block;z-index:2}header .nav-menu{position:fixed;top:0;right:-100%;width:100%;height:100vh;background:#fffdfa;padding:2rem;transition:.3s ease;z-index:1}header .nav-menu.active{right:0}header .nav-menu ul{flex-direction:column;align-items:center;width:100%}header .nav-menu ul li{display:block;font-size:1.2rem;border-bottom:1px dotted #000;height:50px;display:flex;justify-content:center;align-items:center}header.menu-open .burger span:first-child{transform:rotate(45deg)translate(5px,6px)}header.menu-open .burger span:nth-child(2){opacity:0}header.menu-open .burger span:last-child{transform:rotate(-45deg)translate(5px,-6px)}}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none;overflow:visible;overflow-wrap:anywhere}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2}</style>
+  
+    
+    
+    
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "projects",
+        "name": "Understanding the Challenges of OpenSCAD Users for 3D Printing",
+        "headline": "Understanding the Challenges of OpenSCAD Users for 3D Printing",
+        "alternativeHeadline": "",
+        "description": "\u003cp\u003eComputer-Aided Design (CAD) has long been dominated by direct manipulation tools—those intuitive, visual interfaces where designers can drag, drop, and tweak their creations with ease. While this approach has its merits, there\u0026rsquo;s a growing community of designers who prefer to take a different route: programming-based CAD. Tools like OpenSCAD allow users to describe their 3D models using code, offering unmatched precision and the ability to create complex, parametric designs. However, this method comes with its own set of challenges that are often overlooked.\u003c\/p\u003e",
+        "inLanguage": "en-us",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/projects\/understanding-openscad-challenges-for-3d-printing\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": ""
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": ""
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": ""
+        },
+        "copyrightHolder" : "J. Felipe Gonzalez, Ph.D.",
+        "copyrightYear" : "2020",
+        "dateCreated": "2020-01-24T00:00:00.00Z",
+        "datePublished": "2020-01-24T00:00:00.00Z",
+        "dateModified": "2025-07-31T07:23:44.57Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "J. Felipe Gonzalez, Ph.D.",
+            "url": "http://localhost:1313/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "http:\/\/localhost:1313\/assets\/imgJFGA.jpg",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": "http://localhost:1313/assets/imgJFGA.jpg",
+        "url" : "http:\/\/localhost:1313\/projects\/understanding-openscad-challenges-for-3d-printing\/",
+        "wordCount" : "296",
+        "genre" : [ "HCI" , "CAD" ],
+        "keywords" : [ "HCI" , "CAD" ]
+    }
+    </script>
+     
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const burger = document.querySelector('.burger');
+            const nav = document.querySelector('.nav-menu');
+            const header = document.querySelector('header');
+        
+            if (burger) {
+                burger.addEventListener('click', () => {
+                    nav.classList.toggle('active');
+                    header.classList.toggle('menu-open');
+                });
+        
+                
+                document.addEventListener('click', (e) => {
+                    if (!header.contains(e.target) && nav.classList.contains('active')) {
+                        nav.classList.remove('active');
+                        header.classList.remove('menu-open');
+                    }
+                });
+            }
+        });
+    </script> 
+  </head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="http://localhost:1313/projects/css/custom.min.4eb14b3161e98c800c6d80110a5dc792fb70acc14cc991620fe62da6302b7246.css">
+  <body>
+    <a class="skip-link" href="#main">Skip to main</a>
+    <main id="main">
+    <div class="content">
+      
+<header>
+  <p style="padding: 0;margin: 0;">
+    <a href="http://localhost:1313/">
+      <b>J. Felipe Gonzalez, Ph.D.</b>
+      <span class="text-stone-500 animate-blink">▮</span>
+    </a>
+  </p>
+
+  
+  <ul style="padding: 0;margin: 0;">
+    
+    
+    <li class="">
+      <a href="/publications/"><span>Publications</span></a>
+      
+    </li>
+  </ul>
+  
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+      <section>
+        <h1>Understanding the Challenges of OpenSCAD Users for 3D Printing</h1>
+        
+          <small style="font-style:italic; color:darkgrey">Last Updated: Jul 31, 2025</small>
+        
+
+        <p>Computer-Aided Design (CAD) has long been dominated by direct manipulation tools—those intuitive, visual interfaces where designers can drag, drop, and tweak their creations with ease. While this approach has its merits, there&rsquo;s a growing community of designers who prefer to take a different route: programming-based CAD. Tools like OpenSCAD allow users to describe their 3D models using code, offering unmatched precision and the ability to create complex, parametric designs. However, this method comes with its own set of challenges that are often overlooked.</p>
+<p>In my research, I set out to investigate these challenges and understand what motivates designers to choose programming-based CAD over traditional methods. We conducted in-depth interviews with 20 OpenSCAD users, combining these discussions with hands-on sessions to observe their interactions with the tool. The goal was to uncover the specific difficulties these users face and identify opportunities for improving their design experience.</p>
+<p>Our findings were eye-opening. While users are drawn to programming-based CAD for its precision, parametric capabilities, and the power to use mathematical expressions, they also encounter significant obstacles. These include difficulties in navigating the code-view interface, understanding and performing spatial transformations, and creating organic or curved shapes. Additionally, users often struggle with validating dimensions directly in the view and re-using existing models effectively.</p>
+<p>The research also highlighted challenges in the 3D printing process. Users found it hard to manage uncertainties introduced by printers and material properties, identify where to make corrections in the code based on physical inspections, and validate their designs before printing.</p>
+<p>By analyzing these issues, we identified areas where programming-based CAD tools could be enhanced. For instance, better integration between the code and visual representation, improved tools for spatial understanding, and features that simplify the design of organic shapes could all make these tools more accessible and powerful.</p>
+
+
+        
+        
+        
+        <h2>Related Publications</h2>
+        
+        <ul>
+           
+          
+             
+            
+          
+             
+            
+          
+             
+            
+          
+             
+            
+               
+              <li>
+                <a href="http://localhost:1313/publications/2024_chi_understanding/">[1] J Felipe Gonzalez, Thomas Pietrzak, Audrey Girouard, and Géry Casiez. 2024. Understanding the Challenges of OpenSCAD Users for 3D Printing. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI &#39;24). Association for Computing Machinery, New York, NY, USA, Article 351, 1–20. https://doi.org/10.1145/3613904.3642566</a>
+              </li>
+            
+          
+             
+            
+          
+             
+            
+          
+             
+            
+          
+             
+            
+          
+             
+            
+          
+             
+            
+          
+        </ul>
+      
+
+        
+        <div class="post-date">
+          <span class="g time">January 24, 2020 </span> &#8729;
+           
+           <a href="http://localhost:1313/tags/hci/">hci</a> <a href="http://localhost:1313/tags/cad/">cad</a>
+        </div>
+        
+        
+      </section>
+       
+    </div>
+  </main>
+  </body>
+  </html>

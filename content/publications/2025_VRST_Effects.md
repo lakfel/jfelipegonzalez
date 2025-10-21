@@ -27,7 +27,7 @@ tags:
   - "Handtracking"
   - "Avatars"
 note: ""
-video: "videos/2025_VRST_Effects.mp4"
+video: "/videos/2025_VRST_Effects.mp4"
 bibfile: "bibtex/2025_VRST_Effects.bib"
 links:
   - url: "/pdfs/2025_VRST_Effects.pdf"
