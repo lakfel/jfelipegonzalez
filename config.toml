@@ -2,8 +2,11 @@ baseURL = 'https://jfelipegonzalez.com/'
 relativeURLs = false
 languageCode = 'en-us'
 title = 'J. Felipe Gonzalez, Ph.D.'
-paginate = 3
+
 theme = 'maverick'
+
+[pagination]
+  pagerSize = 3
 
 [permalinks]
   pages = "/:slug"
@@ -33,11 +36,11 @@ theme = 'maverick'
     name = "Publications"
     url = "/publications/"
     weight = "-170"
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projects/"
-    weight = -100
+  #[[menu.main]]
+  #  identifier = "projects"
+  #  name = "Projects"
+  #  url = "/projects/"
+  #  weight = -100
 
 [markup]
   [markup.goldmark.renderer]

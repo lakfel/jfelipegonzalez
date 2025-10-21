@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Controllers on J. Felipe Gonzalez, Ph.D.</title>
+    <link>http://localhost:1313/tags/controllers/</link>
+    <description>Recent content in Controllers on J. Felipe Gonzalez, Ph.D.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Oct 2025 11:19:27 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/controllers/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comparing Hand and Controller Avatars with Hand Tracking and Controller-Based Interaction</title>
+      <link>http://localhost:1313/publications/comparing-hand-and-controller-avatars-with-hand-tracking-and-controller-based-interaction/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/comparing-hand-and-controller-avatars-with-hand-tracking-and-controller-based-interaction/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;Previous research suggests that the congruency between common VR input devices – such as controllers or hand tracking – and their visual representations (e.g., hand or controller avatars) influences user experience and performance. However, the specific effects of input-avatar combinations remain underexplored. We study the effects of common input devices (hand tracking and controllers) and visual representations (hand and controller avatars) on performance and perceived success in target acquisition tasks. We included both grasping and pinching gestures across 16 combinations of input, avatar, and target size. Results indicate that hand tracking benefits from any form of visual representation—even when mismatched—achieving up to 5.8% greater accuracy compared to having no avatar, likely due to its reliance on visual feedback in the absence of a physical prop. Controllers were generally preferred and offered faster task completion. However, mismatched avatars had a stronger negative effect with controllers, particularly when the virtual gesture did not align with the physical action, leading to a 5.6% drop in accuracy compared to the matched condition—suggesting that inaccurate feedback can be more disruptive than having no avatar feedback at all.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

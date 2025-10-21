@@ -6,20 +6,55 @@
     <description>Recent content in Tags on J. Felipe Gonzalez, Ph.D.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Sep 2024 09:08:10 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 11:19:27 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/atom.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bidirectionnal Programming</title>
-      <link>http://localhost:1313/tags/bidirectionnal-programming/</link>
-      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bidirectionnal-programming/</guid>
+      <title>Avatars</title>
+      <link>http://localhost:1313/tags/avatars/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/avatars/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Controllers</title>
+      <link>http://localhost:1313/tags/controllers/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/controllers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Handtracking</title>
+      <link>http://localhost:1313/tags/handtracking/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/handtracking/</guid>
       <description></description>
     </item>
     <item>
       <title>HCI</title>
       <link>http://localhost:1313/tags/hci/</link>
-      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/hci/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VR</title>
+      <link>http://localhost:1313/tags/vr/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VR/AR</title>
+      <link>http://localhost:1313/tags/vr/ar/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vr/ar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bidirectionnal Programming</title>
+      <link>http://localhost:1313/tags/bidirectionnal-programming/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bidirectionnal-programming/</guid>
       <description></description>
     </item>
     <item>
@@ -34,13 +69,6 @@
       <link>http://localhost:1313/tags/haptics/</link>
       <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/haptics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>VR</title>
-      <link>http://localhost:1313/tags/vr/</link>
-      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vr/</guid>
       <description></description>
     </item>
     <item>

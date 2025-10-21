@@ -6,21 +6,21 @@
     <description>Recent content in Haptics on J. Felipe Gonzalez, Ph.D.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Sep 2024 09:08:10 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 31 Jul 2025 07:23:44 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/haptics/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adaptic: A Shape Changing Prop with Haptic Retargeting</title>
       <link>http://localhost:1313/publications/adaptic-a-shape-changing-prop-with-haptic-retargeting/</link>
       <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/adaptic-a-shape-changing-prop-with-haptic-retargeting/</guid>
-      <description>Abstract We present Adaptic, a novel &amp;ldquo;hybrid&amp;rdquo; active/passive haptic device that can change shape to act as a proxy for a range of virtual objects in VR. We use Adaptic with haptic retargeting to redirect the user’s hand to provide haptic feedback for several virtual objects in arm’s reach using only a single prop. To evaluate the effectiveness of Adaptic with haptic retargeting, we conducted a within-subjects experiment employing a docking task to compare Adaptic to non-matching proxy objects (i.</description>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;We present Adaptic, a novel &amp;ldquo;hybrid&amp;rdquo; active/passive haptic device that can change shape to act as a proxy for a range of virtual objects in VR. We use Adaptic with haptic retargeting to redirect the user’s hand to provide haptic feedback for several virtual objects in arm’s reach using only a single prop. To evaluate the effectiveness of Adaptic with haptic retargeting, we conducted a within-subjects experiment employing a docking task to compare Adaptic to non-matching proxy objects (i.e., Styrofoam balls) and matching shape props. In our study, Adaptic sat on a desk in front of the user and changed shapes between grasps, to provide matching tactile feedback for various virtual objects placed in different virtual locations. Results indicate that the illusion was convincing: users felt they were manipulating several virtual objects in different virtual locations with a single Adaptic device. Docking performance (completion time and accuracy) with Adaptic was comparable to props without haptic retargeting.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Adaptic: A Shape Changing Prop with Haptic Retargeting</title>
       <link>http://localhost:1313/projects/adaptic-shape-changing-prop-and-vr-haptic-reatergeting/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/adaptic-shape-changing-prop-and-vr-haptic-reatergeting/</guid>
-      <description>Imagine interacting with virtual objects in VR and feeling as if you&amp;rsquo;re actually handling them, all while using just a single device. That’s exactly what we aimed to achieve with Adaptic, our innovative haptic device. Unlike traditional props, Adaptic is a shape-changing device that can transform its form to match various virtual objects you’re manipulating in VR.&#xA;Here’s how it works: Adaptic uses a clever technique called haptic retargeting to adjust its shape and provide realistic feedback for different virtual items.</description>
+      <description>&lt;p&gt;Imagine interacting with virtual objects in VR and feeling as if you&amp;rsquo;re actually handling them, all while using just a single device. That’s exactly what we aimed to achieve with Adaptic, our innovative haptic device. Unlike traditional props, Adaptic is a shape-changing device that can transform its form to match various virtual objects you’re manipulating in VR.&lt;/p&gt;&#xA;&lt;p&gt;Here’s how it works: Adaptic uses a clever technique called haptic retargeting to adjust its shape and provide realistic feedback for different virtual items. Instead of using multiple props to match the shapes of virtual objects, Adaptic changes its form to fit the virtual objects within your reach. This means you get accurate tactile feedback with just one device, making the VR experience feel more immersive and less cluttered.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
