@@ -3,7 +3,8 @@ title_paper: "2025_VRST_Effects"
 slug: "2025_VRST_Effects"
 title: "Effects of Virtual Controller Representation and Virtuality on Selection Performance in Extended Reality"
 description: ""
-date: 2025-11-12
+publication_date: 2025-11-12
+date:  2025-10-20
 authors:
     - name: "DeMarbre, Eric"
       link: "https://www.linkedin.com/in/eric-demarbre-95a6872/"
@@ -37,9 +38,12 @@ links:
   - url: "https://doi.org/10.1145/3756884.3766004"
     icon: "fa-link"
     text: "DOI"
-#  - url: "https://hal.science/hal-04666998"
-#    icon: "fa-external-link"
-#    text: "HAL"
+  - url: "https://hal.science/hal-05325980"
+    icon: "fa-external-link"
+    text: "HAL"
+  - url: "https://arxiv.org/abs/2510.18625"
+    icon: "fa-external-link"
+    text: "arXiv"
 #  - url: "https://cil.csit.carleton.ca/bidirectional-programming-csg-cad/"
 #    icon: "fa-link"
 #    text: "Website"

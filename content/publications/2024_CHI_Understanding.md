@@ -4,6 +4,7 @@ slug: "2024_CHI_Understanding"
 title: "Understanding the Challenges of OpenSCAD Users for 3D Printing"
 slug: "2024_CHI_Understanding"
 description: ""
+publication_date : 2024-05-11
 date: 2024-05-11
 authors: 
     - name: "Gonzalez, J. Felipe" 

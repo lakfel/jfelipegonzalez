@@ -3,7 +3,8 @@ title_paper: "2025_ISMAR_Comparing"
 slug: "2025_ISMAR_Comparing"
 title: "Comparing Hand and Controller Avatars with Hand Tracking and Controller-Based Interaction"
 description: ""
-date: 2025-10-08
+publication_date : 2025-10-08
+date: 2025-10-20
 authors:
     - name: "Ocampo, Natalia"
     - name: "Gonzalez, J. Felipe" 

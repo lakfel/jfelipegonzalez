@@ -3,6 +3,7 @@ title_paper: "2021_SUI_Adaptic"
 slug: "2021_SUI_Adaptic"
 title : "Adaptic: A Shape Changing Prop with Haptic Retargeting"
 description: ""
+publication_date : 2021-11-09
 date: 2021-11-09
 authors:
   - name: "Gonzalez, J. Felipe" 
