@@ -48,11 +48,9 @@ links:
   - url: "https://cil.csit.carleton.ca/bidirectional-programming-csg-cad/"
     icon: "fa-link"
     text: "Website"
-type: "publications"
-layout : "single"
- #- url: "https://youtu.be/<>"
- #   icon: "fa-film"
- #   text: "Video"-->
+  - url: "https://youtu.be/-szJrLHYvkY?si=RlR2pGJIkRsf3iBt"
+    icon: "fa-film"
+    text: "Video"
  # - url: "https://github.com/<>"
  #   icon: "fa-code"
  #   text: "Code"
@@ -62,6 +60,8 @@ layout : "single"
  # - url: "https://cil.csit.carleton.ca/bidirectional-programming-csg-cad/"
  #   icon: "fa-link"
  #   text: "Website"
+type: "publications"
+layout : "single"
 draft: false
 ---
 
