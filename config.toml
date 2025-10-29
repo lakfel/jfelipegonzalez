@@ -77,4 +77,8 @@ theme = 'maverick'
   mediatype = "application/json"
   baseName = "feed"
 
+[services]
+  [services.googleAnalytics]
+    ID = "G-9EQ4ZPKGFH"
+
 ignoreErrors = ["error-remote-getjson"]
