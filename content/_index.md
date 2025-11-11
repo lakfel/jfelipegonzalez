@@ -4,7 +4,7 @@
 <img class="avatar" src="{{< baseurl >}}/imgs/imgJFGA.jpg" alt="avatar">
 
 
-I'm J. Felipe Gonzalez, a tech enthusiast driven by a deep passion for hardware and software innovations.
+I'm J. Felipe Gonzalez, Postdoctoral Fellow at <a href='https://carleton.ca/'>Carleton University</a> working with <a href='https://www.csit.carleton.ca/~rteather/'>Dr Robert Teather</a>. My current research focuses in Cross-platform VR/AR.
 
 I recently completed my Ph.D. in Information Technology with a specialization in Human-Computer Interaction (HCI), co-supervised between the prestigious <a href='https://www.univ-lille.fr/'>Université de Lille</a> in France and <a href='https://carleton.ca/'>Carleton University</a> in Canada. My dissertation, <a href='https://hal.science/tel-04635570'>Facilitating Programming-based 3D Computer-Aided Design using Bidirectional Programming</a>, delves into groundbreaking methodologies for enhancing 3D CAD through bidirectional programming.
 
