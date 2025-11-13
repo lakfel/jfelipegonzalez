@@ -17,7 +17,7 @@ publicationType: "Conference papers"
 conference: "VRST'25"
 publicationInfo: "31st ACM Symposium on Virtual Reality Software and Technology"
 acceptanceRate: "AR: 27% (90/333)"
-award : ""
+award : "Best paper nomination"
 categories:
   - "Technology"
   - "Research"
