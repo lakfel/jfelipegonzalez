@@ -30,7 +30,7 @@ note: ""
 video: "/videos/2025_ISMAR_Comparing.mp4"
 bibfile: "bibtex/2025_ISMAR_Comparing.bib"
 links:
-  - url: "/pdfs/2025_ISMAR_Comparing.pdf"
+  - url: "/pdfs/2025_ISMAR_ComparingV2.pdf"
     icon: "fa-file-pdf"
     text: "PDF"
   - url: "http://doi.org/10.1109/ISMAR67309.2025.00029"
