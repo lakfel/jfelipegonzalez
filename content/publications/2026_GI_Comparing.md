@@ -4,7 +4,7 @@ slug: "2026_GI_Comparing"
 title: "Comparing Controller-Free Pointing Techniques Across Depth for 2D Selection in Augmented Reality"
 description: ""
 publication_date: 2026-06-09
-date:  2026-06-09
+date:  2026-06-01
 authors:
     - name: "Sultana, Samiha"
       link: "https://scholar.google.com/citations?user=rJPFVgkAAAAJ&hl=en"
