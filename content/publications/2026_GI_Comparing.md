@@ -31,7 +31,7 @@ note: ""
 video: "/videos/2026_GI_Comparing.mp4"
 bibfile: "bibtex/2026_GI_Comparing.bib"
 links:
-  - url: "/pdfs/2026_GI_Comparing.pdf"
+  - url: "/pdfs/2026_GI_ComparingV2.pdf"
     icon: "fa-file-pdf"
     text: "PDF"
   #- url: "https://doi.org/10.1145/3756884.3766004"
