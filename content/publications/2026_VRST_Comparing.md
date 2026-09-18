@@ -32,7 +32,7 @@ note: ""
 video: "/videos/2026_VRST_Comparing.mp4"
 bibfile: "bibtex/2026_VRST_Comparing.bib"
 links:
-  - url: "/pdfs/2025_VRST_Effects.pdf"
+  - url: "/pdfs/2026_VRST_Comparing.pdf"
     icon: "fa-file-pdf"
     text: "PDF"
   - url: "https://doi.org/10.1145/3822517.3848655"
