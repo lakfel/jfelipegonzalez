@@ -39,6 +39,10 @@ links:
 #  - url: "https://hal.science/hal-04666998"
 #    icon: "fa-external-link"
 #    text: "HAL"
+  - url: "https://arxiv.org/abs/2609.21799"
+    icon: "fa-external-link"
+    text: "arXiv"
+#  - url: "https://
 #  - url: "https://cil.csit.carleton.ca/bidirectional-programming-csg-cad/"
 #    icon: "fa-link"
 #    text: "Website"
